@@ -1,78 +1,136 @@
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #f9fafb;
+    font-family: 'Inter', sans-serif;
+    background-color: #f8fafc;
     color: #111827;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 20px 10%;
     background: white;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 12px rgba(0,0,0,0.04);
 }
 
 .logo {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 20px;
 }
 
-.cta-button {
+.nav-cta {
     text-decoration: none;
     background: #2563eb;
     color: white;
-    padding: 8px 16px;
-    border-radius: 6px;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.nav-cta:hover {
+    background: #1e40af;
 }
 
 .hero {
-    text-align: center;
-    padding: 100px 20px;
-    background: linear-gradient(135deg, #2563eb, #1e40af);
+    padding: 120px 10%;
+    background: linear-gradient(135deg, #1e3a8a, #2563eb);
     color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+.hero-buttons {
+    margin-top: 30px;
 }
 
 .primary-btn {
-    display: inline-block;
-    margin-top: 20px;
     background: white;
     color: #2563eb;
     padding: 12px 24px;
-    border-radius: 6px;
+    border-radius: 8px;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 600;
+    margin: 5px;
+    transition: 0.3s ease;
 }
 
-section {
-    padding: 80px 10%;
+.primary-btn:hover {
+    transform: translateY(-3px);
+}
+
+.secondary-btn {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.section {
+    padding: 100px 10%;
     text-align: center;
+}
+
+.dark {
+    background: #111827;
+    color: white;
 }
 
 .grid {
     display: flex;
-    gap: 20px;
     justify-content: center;
-    margin-top: 40px;
+    gap: 30px;
     flex-wrap: wrap;
+    margin-top: 50px;
 }
 
 .card {
     background: white;
     padding: 30px;
-    width: 250px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    border-radius: 16px;
+    width: 280px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+    transition: 0.3s ease;
 }
 
-.cta-section {
-    background: #111827;
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.glass {
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
     color: white;
 }
 
-footer {
+.cta-section {
+    padding: 100px 10%;
+    background: linear-gradient(135deg, #2563eb, #1e40af);
+    color: white;
     text-align: center;
-    padding: 20px;
+}
+
+.large {
+    font-size: 18px;
+    padding: 14px 32px;
+}
+
+footer {
+    padding: 30px;
+    text-align: center;
     background: white;
     font-size: 14px;
 }
