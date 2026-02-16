@@ -4,64 +4,71 @@
     <meta charset="UTF-8">
     <title>SmartStock | Inventory Intelligence for SMEs</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <nav class="navbar">
         <div class="logo">SmartStock</div>
-        <a href="#" class="cta-button">Launch App</a>
+        <a href="#" class="nav-cta">Launch App</a>
     </nav>
 
     <section class="hero">
-        <h1>Prevent Stockouts. Reduce Waste. Improve Cash Flow.</h1>
-        <p>AI-powered inventory forecasting built for growing retailers.</p>
-        <a href="#" class="primary-btn">Try the Demo</a>
-    </section>
-
-    <section class="problem">
-        <h2>Retailers Lose Money Every Month</h2>
-        <div class="grid">
-            <div class="card">
-                <h3>Stockouts</h3>
-                <p>Running out of fast-moving products kills revenue.</p>
-            </div>
-            <div class="card">
-                <h3>Overstocking</h3>
-                <p>Excess inventory locks up cash and increases waste.</p>
-            </div>
-            <div class="card">
-                <h3>Manual Guessing</h3>
-                <p>Reordering based on instinct instead of data.</p>
+        <div class="hero-content">
+            <h1>Inventory Intelligence for Growing Retailers</h1>
+            <p>Prevent stockouts, reduce waste, and optimize cash flow using AI-driven forecasting.</p>
+            <div class="hero-buttons">
+                <a href="#" class="primary-btn">Try Demo</a>
+                <a href="#" class="secondary-btn">Learn More</a>
             </div>
         </div>
     </section>
 
-    <section class="features">
-        <h2>How SmartStock Helps</h2>
+    <section class="section">
+        <h2>Retailers Lose Revenue Every Month</h2>
         <div class="grid">
             <div class="card">
-                <h3>30-Day Forecast</h3>
-                <p>Predict future demand using historical sales data.</p>
+                <h3>Stockouts</h3>
+                <p>Running out of high-demand products reduces customer trust.</p>
             </div>
             <div class="card">
-                <h3>Reorder Suggestions</h3>
+                <h3>Overstocking</h3>
+                <p>Excess inventory locks capital and increases waste.</p>
+            </div>
+            <div class="card">
+                <h3>Poor Forecasting</h3>
+                <p>Manual reordering leads to inefficient cash management.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section dark">
+        <h2>How SmartStock Helps</h2>
+        <div class="grid">
+            <div class="card glass">
+                <h3>30-Day Forecast</h3>
+                <p>Predict demand using historical sales trends.</p>
+            </div>
+            <div class="card glass">
+                <h3>Reorder Guidance</h3>
                 <p>Know exactly how much to restock and when.</p>
             </div>
-            <div class="card">
-                <h3>Stock Risk Alerts</h3>
-                <p>Identify high stockout risks before they happen.</p>
+            <div class="card glass">
+                <h3>Risk Detection</h3>
+                <p>Identify high stockout risks before revenue drops.</p>
             </div>
         </div>
     </section>
 
     <section class="cta-section">
         <h2>Start Making Data-Driven Inventory Decisions</h2>
-        <a href="#" class="primary-btn">Launch SmartStock</a>
+        <a href="#" class="primary-btn large">Launch SmartStock</a>
     </section>
 
     <footer>
-        <p>© 2026 SmartStock • Built for SME Growth</p>
+        <p>© <span id="year"></span> SmartStock • Built for SME Growth</p>
     </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
