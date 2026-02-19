@@ -1,0 +1,1841 @@
+date,product,sales
+2025-07-01,Rice 50kg,60
+2025-07-02,Rice 50kg,55
+2025-07-03,Rice 50kg,52
+2025-07-04,Rice 50kg,80
+2025-07-05,Rice 50kg,69
+2025-07-06,Rice 50kg,65
+2025-07-07,Rice 50kg,54
+2025-07-08,Rice 50kg,56
+2025-07-09,Rice 50kg,56
+2025-07-10,Rice 50kg,59
+2025-07-11,Rice 50kg,71
+2025-07-12,Rice 50kg,71
+2025-07-13,Rice 50kg,78
+2025-07-14,Rice 50kg,66
+2025-07-15,Rice 50kg,47
+2025-07-16,Rice 50kg,62
+2025-07-17,Rice 50kg,58
+2025-07-18,Rice 50kg,70
+2025-07-19,Rice 50kg,64
+2025-07-20,Rice 50kg,79
+2025-07-21,Rice 50kg,59
+2025-07-22,Rice 50kg,61
+2025-07-23,Rice 50kg,62
+2025-07-24,Rice 50kg,64
+2025-07-25,Rice 50kg,70
+2025-07-26,Rice 50kg,72
+2025-07-27,Rice 50kg,73
+2025-07-28,Rice 50kg,63
+2025-07-29,Rice 50kg,60
+2025-07-30,Rice 50kg,60
+2025-07-31,Rice 50kg,57
+2025-08-01,Rice 50kg,69
+2025-08-02,Rice 50kg,78
+2025-08-03,Rice 50kg,81
+2025-08-04,Rice 50kg,59
+2025-08-05,Rice 50kg,63
+2025-08-06,Rice 50kg,55
+2025-08-07,Rice 50kg,59
+2025-08-08,Rice 50kg,71
+2025-08-09,Rice 50kg,81
+2025-08-10,Rice 50kg,75
+2025-08-11,Rice 50kg,55
+2025-08-12,Rice 50kg,51
+2025-08-13,Rice 50kg,57
+2025-08-14,Rice 50kg,63
+2025-08-15,Rice 50kg,76
+2025-08-16,Rice 50kg,78
+2025-08-17,Rice 50kg,65
+2025-08-18,Rice 50kg,65
+2025-08-19,Rice 50kg,62
+2025-08-20,Rice 50kg,65
+2025-08-21,Rice 50kg,66
+2025-08-22,Rice 50kg,87
+2025-08-23,Rice 50kg,81
+2025-08-24,Rice 50kg,76
+2025-08-25,Rice 50kg,65
+2025-08-26,Rice 50kg,58
+2025-08-27,Rice 50kg,58
+2025-08-28,Rice 50kg,54
+2025-08-29,Rice 50kg,69
+2025-08-30,Rice 50kg,79
+2025-08-31,Rice 50kg,72
+2025-09-01,Rice 50kg,66
+2025-09-02,Rice 50kg,70
+2025-09-03,Rice 50kg,65
+2025-09-04,Rice 50kg,67
+2025-09-05,Rice 50kg,72
+2025-09-06,Rice 50kg,76
+2025-09-07,Rice 50kg,84
+2025-09-08,Rice 50kg,59
+2025-09-09,Rice 50kg,69
+2025-09-10,Rice 50kg,73
+2025-09-11,Rice 50kg,67
+2025-09-12,Rice 50kg,69
+2025-09-13,Rice 50kg,79
+2025-09-14,Rice 50kg,78
+2025-09-15,Rice 50kg,67
+2025-09-16,Rice 50kg,69
+2025-09-17,Rice 50kg,61
+2025-09-18,Rice 50kg,61
+2025-09-19,Rice 50kg,78
+2025-09-20,Rice 50kg,74
+2025-09-21,Rice 50kg,80
+2025-09-22,Rice 50kg,65
+2025-09-23,Rice 50kg,79
+2025-09-24,Rice 50kg,61
+2025-09-25,Rice 50kg,62
+2025-09-26,Rice 50kg,81
+2025-09-27,Rice 50kg,84
+2025-09-28,Rice 50kg,91
+2025-09-29,Rice 50kg,74
+2025-09-30,Rice 50kg,71
+2025-10-01,Rice 50kg,68
+2025-10-02,Rice 50kg,71
+2025-10-03,Rice 50kg,77
+2025-10-04,Rice 50kg,79
+2025-10-05,Rice 50kg,73
+2025-10-06,Rice 50kg,66
+2025-10-07,Rice 50kg,72
+2025-10-08,Rice 50kg,66
+2025-10-09,Rice 50kg,63
+2025-10-10,Rice 50kg,79
+2025-10-11,Rice 50kg,85
+2025-10-12,Rice 50kg,80
+2025-10-13,Rice 50kg,72
+2025-10-14,Rice 50kg,61
+2025-10-15,Rice 50kg,64
+2025-10-16,Rice 50kg,65
+2025-10-17,Rice 50kg,75
+2025-10-18,Rice 50kg,97
+2025-10-19,Rice 50kg,77
+2025-10-20,Rice 50kg,73
+2025-10-21,Rice 50kg,65
+2025-10-22,Rice 50kg,66
+2025-10-23,Rice 50kg,70
+2025-10-24,Rice 50kg,75
+2025-10-25,Rice 50kg,79
+2025-10-26,Rice 50kg,82
+2025-10-27,Rice 50kg,65
+2025-10-28,Rice 50kg,65
+2025-10-29,Rice 50kg,75
+2025-10-30,Rice 50kg,74
+2025-10-31,Rice 50kg,81
+2025-11-01,Rice 50kg,83
+2025-11-02,Rice 50kg,90
+2025-11-03,Rice 50kg,63
+2025-11-04,Rice 50kg,72
+2025-11-05,Rice 50kg,80
+2025-11-06,Rice 50kg,80
+2025-11-07,Rice 50kg,75
+2025-11-08,Rice 50kg,81
+2025-11-09,Rice 50kg,85
+2025-11-10,Rice 50kg,64
+2025-11-11,Rice 50kg,67
+2025-11-12,Rice 50kg,70
+2025-11-13,Rice 50kg,78
+2025-11-14,Rice 50kg,85
+2025-11-15,Rice 50kg,86
+2025-11-16,Rice 50kg,88
+2025-11-17,Rice 50kg,74
+2025-11-18,Rice 50kg,71
+2025-11-19,Rice 50kg,65
+2025-11-20,Rice 50kg,75
+2025-11-21,Rice 50kg,88
+2025-11-22,Rice 50kg,81
+2025-11-23,Rice 50kg,83
+2025-11-24,Rice 50kg,76
+2025-11-25,Rice 50kg,75
+2025-11-26,Rice 50kg,68
+2025-11-27,Rice 50kg,71
+2025-11-28,Rice 50kg,86
+2025-11-29,Rice 50kg,90
+2025-11-30,Rice 50kg,93
+2025-12-01,Rice 50kg,73
+2025-12-02,Rice 50kg,78
+2025-12-03,Rice 50kg,77
+2025-12-04,Rice 50kg,74
+2025-12-05,Rice 50kg,80
+2025-12-06,Rice 50kg,83
+2025-12-07,Rice 50kg,92
+2025-12-08,Rice 50kg,65
+2025-12-09,Rice 50kg,74
+2025-12-10,Rice 50kg,78
+2025-12-11,Rice 50kg,74
+2025-12-12,Rice 50kg,85
+2025-12-13,Rice 50kg,84
+2025-12-14,Rice 50kg,93
+2025-12-15,Rice 50kg,76
+2025-12-16,Rice 50kg,73
+2025-12-17,Rice 50kg,79
+2025-12-18,Rice 50kg,78
+2025-12-19,Rice 50kg,98
+2025-12-20,Rice 50kg,92
+2025-12-21,Rice 50kg,89
+2025-12-22,Rice 50kg,74
+2025-12-23,Rice 50kg,65
+2025-12-24,Rice 50kg,76
+2025-12-25,Rice 50kg,75
+2025-12-26,Rice 50kg,83
+2025-12-27,Rice 50kg,90
+2025-12-28,Rice 50kg,97
+2025-12-29,Rice 50kg,72
+2025-12-30,Rice 50kg,71
+2025-12-31,Rice 50kg,81
+2025-07-01,Indomie Carton,24
+2025-07-02,Indomie Carton,34
+2025-07-03,Indomie Carton,32
+2025-07-04,Indomie Carton,37
+2025-07-05,Indomie Carton,41
+2025-07-06,Indomie Carton,37
+2025-07-07,Indomie Carton,21
+2025-07-08,Indomie Carton,27
+2025-07-09,Indomie Carton,38
+2025-07-10,Indomie Carton,37
+2025-07-11,Indomie Carton,35
+2025-07-12,Indomie Carton,40
+2025-07-13,Indomie Carton,51
+2025-07-14,Indomie Carton,31
+2025-07-15,Indomie Carton,31
+2025-07-16,Indomie Carton,32
+2025-07-17,Indomie Carton,34
+2025-07-18,Indomie Carton,36
+2025-07-19,Indomie Carton,41
+2025-07-20,Indomie Carton,28
+2025-07-21,Indomie Carton,33
+2025-07-22,Indomie Carton,32
+2025-07-23,Indomie Carton,30
+2025-07-24,Indomie Carton,29
+2025-07-25,Indomie Carton,35
+2025-07-26,Indomie Carton,34
+2025-07-27,Indomie Carton,26
+2025-07-28,Indomie Carton,30
+2025-07-29,Indomie Carton,37
+2025-07-30,Indomie Carton,30
+2025-07-31,Indomie Carton,35
+2025-08-01,Indomie Carton,33
+2025-08-02,Indomie Carton,32
+2025-08-03,Indomie Carton,34
+2025-08-04,Indomie Carton,27
+2025-08-05,Indomie Carton,26
+2025-08-06,Indomie Carton,34
+2025-08-07,Indomie Carton,41
+2025-08-08,Indomie Carton,35
+2025-08-09,Indomie Carton,30
+2025-08-10,Indomie Carton,42
+2025-08-11,Indomie Carton,25
+2025-08-12,Indomie Carton,26
+2025-08-13,Indomie Carton,35
+2025-08-14,Indomie Carton,31
+2025-08-15,Indomie Carton,35
+2025-08-16,Indomie Carton,39
+2025-08-17,Indomie Carton,37
+2025-08-18,Indomie Carton,42
+2025-08-19,Indomie Carton,29
+2025-08-20,Indomie Carton,28
+2025-08-21,Indomie Carton,30
+2025-08-22,Indomie Carton,37
+2025-08-23,Indomie Carton,42
+2025-08-24,Indomie Carton,29
+2025-08-25,Indomie Carton,35
+2025-08-26,Indomie Carton,30
+2025-08-27,Indomie Carton,37
+2025-08-28,Indomie Carton,33
+2025-08-29,Indomie Carton,42
+2025-08-30,Indomie Carton,38
+2025-08-31,Indomie Carton,42
+2025-09-01,Indomie Carton,41
+2025-09-02,Indomie Carton,29
+2025-09-03,Indomie Carton,32
+2025-09-04,Indomie Carton,31
+2025-09-05,Indomie Carton,48
+2025-09-06,Indomie Carton,38
+2025-09-07,Indomie Carton,36
+2025-09-08,Indomie Carton,30
+2025-09-09,Indomie Carton,33
+2025-09-10,Indomie Carton,29
+2025-09-11,Indomie Carton,31
+2025-09-12,Indomie Carton,41
+2025-09-13,Indomie Carton,40
+2025-09-14,Indomie Carton,44
+2025-09-15,Indomie Carton,32
+2025-09-16,Indomie Carton,32
+2025-09-17,Indomie Carton,35
+2025-09-18,Indomie Carton,45
+2025-09-19,Indomie Carton,37
+2025-09-20,Indomie Carton,50
+2025-09-21,Indomie Carton,35
+2025-09-22,Indomie Carton,35
+2025-09-23,Indomie Carton,32
+2025-09-24,Indomie Carton,30
+2025-09-25,Indomie Carton,37
+2025-09-26,Indomie Carton,44
+2025-09-27,Indomie Carton,38
+2025-09-28,Indomie Carton,30
+2025-09-29,Indomie Carton,32
+2025-09-30,Indomie Carton,35
+2025-10-01,Indomie Carton,34
+2025-10-02,Indomie Carton,38
+2025-10-03,Indomie Carton,51
+2025-10-04,Indomie Carton,43
+2025-10-05,Indomie Carton,44
+2025-10-06,Indomie Carton,35
+2025-10-07,Indomie Carton,40
+2025-10-08,Indomie Carton,37
+2025-10-09,Indomie Carton,38
+2025-10-10,Indomie Carton,50
+2025-10-11,Indomie Carton,43
+2025-10-12,Indomie Carton,40
+2025-10-13,Indomie Carton,37
+2025-10-14,Indomie Carton,40
+2025-10-15,Indomie Carton,37
+2025-10-16,Indomie Carton,40
+2025-10-17,Indomie Carton,38
+2025-10-18,Indomie Carton,37
+2025-10-19,Indomie Carton,39
+2025-10-20,Indomie Carton,29
+2025-10-21,Indomie Carton,35
+2025-10-22,Indomie Carton,33
+2025-10-23,Indomie Carton,41
+2025-10-24,Indomie Carton,36
+2025-10-25,Indomie Carton,50
+2025-10-26,Indomie Carton,37
+2025-10-27,Indomie Carton,29
+2025-10-28,Indomie Carton,31
+2025-10-29,Indomie Carton,45
+2025-10-30,Indomie Carton,35
+2025-10-31,Indomie Carton,45
+2025-11-01,Indomie Carton,42
+2025-11-02,Indomie Carton,42
+2025-11-03,Indomie Carton,33
+2025-11-04,Indomie Carton,36
+2025-11-05,Indomie Carton,38
+2025-11-06,Indomie Carton,44
+2025-11-07,Indomie Carton,33
+2025-11-08,Indomie Carton,51
+2025-11-09,Indomie Carton,45
+2025-11-10,Indomie Carton,34
+2025-11-11,Indomie Carton,33
+2025-11-12,Indomie Carton,41
+2025-11-13,Indomie Carton,37
+2025-11-14,Indomie Carton,35
+2025-11-15,Indomie Carton,45
+2025-11-16,Indomie Carton,49
+2025-11-17,Indomie Carton,40
+2025-11-18,Indomie Carton,33
+2025-11-19,Indomie Carton,29
+2025-11-20,Indomie Carton,34
+2025-11-21,Indomie Carton,60
+2025-11-22,Indomie Carton,36
+2025-11-23,Indomie Carton,39
+2025-11-24,Indomie Carton,38
+2025-11-25,Indomie Carton,36
+2025-11-26,Indomie Carton,35
+2025-11-27,Indomie Carton,46
+2025-11-28,Indomie Carton,39
+2025-11-29,Indomie Carton,44
+2025-11-30,Indomie Carton,45
+2025-12-01,Indomie Carton,32
+2025-12-02,Indomie Carton,29
+2025-12-03,Indomie Carton,38
+2025-12-04,Indomie Carton,46
+2025-12-05,Indomie Carton,46
+2025-12-06,Indomie Carton,45
+2025-12-07,Indomie Carton,45
+2025-12-08,Indomie Carton,35
+2025-12-09,Indomie Carton,43
+2025-12-10,Indomie Carton,34
+2025-12-11,Indomie Carton,30
+2025-12-12,Indomie Carton,36
+2025-12-13,Indomie Carton,45
+2025-12-14,Indomie Carton,50
+2025-12-15,Indomie Carton,38
+2025-12-16,Indomie Carton,35
+2025-12-17,Indomie Carton,39
+2025-12-18,Indomie Carton,38
+2025-12-19,Indomie Carton,49
+2025-12-20,Indomie Carton,51
+2025-12-21,Indomie Carton,40
+2025-12-22,Indomie Carton,26
+2025-12-23,Indomie Carton,36
+2025-12-24,Indomie Carton,32
+2025-12-25,Indomie Carton,42
+2025-12-26,Indomie Carton,41
+2025-12-27,Indomie Carton,36
+2025-12-28,Indomie Carton,42
+2025-12-29,Indomie Carton,30
+2025-12-30,Indomie Carton,46
+2025-12-31,Indomie Carton,40
+2025-07-01,Coca-Cola Crate,33
+2025-07-02,Coca-Cola Crate,30
+2025-07-03,Coca-Cola Crate,29
+2025-07-04,Coca-Cola Crate,32
+2025-07-05,Coca-Cola Crate,25
+2025-07-06,Coca-Cola Crate,28
+2025-07-07,Coca-Cola Crate,25
+2025-07-08,Coca-Cola Crate,29
+2025-07-09,Coca-Cola Crate,27
+2025-07-10,Coca-Cola Crate,32
+2025-07-11,Coca-Cola Crate,34
+2025-07-12,Coca-Cola Crate,32
+2025-07-13,Coca-Cola Crate,44
+2025-07-14,Coca-Cola Crate,29
+2025-07-15,Coca-Cola Crate,25
+2025-07-16,Coca-Cola Crate,36
+2025-07-17,Coca-Cola Crate,33
+2025-07-18,Coca-Cola Crate,41
+2025-07-19,Coca-Cola Crate,32
+2025-07-20,Coca-Cola Crate,37
+2025-07-21,Coca-Cola Crate,20
+2025-07-22,Coca-Cola Crate,31
+2025-07-23,Coca-Cola Crate,26
+2025-07-24,Coca-Cola Crate,20
+2025-07-25,Coca-Cola Crate,38
+2025-07-26,Coca-Cola Crate,23
+2025-07-27,Coca-Cola Crate,23
+2025-07-28,Coca-Cola Crate,29
+2025-07-29,Coca-Cola Crate,30
+2025-07-30,Coca-Cola Crate,32
+2025-07-31,Coca-Cola Crate,31
+2025-08-01,Coca-Cola Crate,40
+2025-08-02,Coca-Cola Crate,36
+2025-08-03,Coca-Cola Crate,32
+2025-08-04,Coca-Cola Crate,27
+2025-08-05,Coca-Cola Crate,26
+2025-08-06,Coca-Cola Crate,29
+2025-08-07,Coca-Cola Crate,22
+2025-08-08,Coca-Cola Crate,34
+2025-08-09,Coca-Cola Crate,32
+2025-08-10,Coca-Cola Crate,34
+2025-08-11,Coca-Cola Crate,29
+2025-08-12,Coca-Cola Crate,15
+2025-08-13,Coca-Cola Crate,23
+2025-08-14,Coca-Cola Crate,27
+2025-08-15,Coca-Cola Crate,33
+2025-08-16,Coca-Cola Crate,34
+2025-08-17,Coca-Cola Crate,34
+2025-08-18,Coca-Cola Crate,35
+2025-08-19,Coca-Cola Crate,29
+2025-08-20,Coca-Cola Crate,26
+2025-08-21,Coca-Cola Crate,19
+2025-08-22,Coca-Cola Crate,26
+2025-08-23,Coca-Cola Crate,36
+2025-08-24,Coca-Cola Crate,38
+2025-08-25,Coca-Cola Crate,35
+2025-08-26,Coca-Cola Crate,23
+2025-08-27,Coca-Cola Crate,26
+2025-08-28,Coca-Cola Crate,29
+2025-08-29,Coca-Cola Crate,43
+2025-08-30,Coca-Cola Crate,34
+2025-08-31,Coca-Cola Crate,41
+2025-09-01,Coca-Cola Crate,28
+2025-09-02,Coca-Cola Crate,33
+2025-09-03,Coca-Cola Crate,33
+2025-09-04,Coca-Cola Crate,29
+2025-09-05,Coca-Cola Crate,28
+2025-09-06,Coca-Cola Crate,32
+2025-09-07,Coca-Cola Crate,41
+2025-09-08,Coca-Cola Crate,32
+2025-09-09,Coca-Cola Crate,26
+2025-09-10,Coca-Cola Crate,26
+2025-09-11,Coca-Cola Crate,19
+2025-09-12,Coca-Cola Crate,41
+2025-09-13,Coca-Cola Crate,38
+2025-09-14,Coca-Cola Crate,33
+2025-09-15,Coca-Cola Crate,29
+2025-09-16,Coca-Cola Crate,17
+2025-09-17,Coca-Cola Crate,25
+2025-09-18,Coca-Cola Crate,35
+2025-09-19,Coca-Cola Crate,39
+2025-09-20,Coca-Cola Crate,35
+2025-09-21,Coca-Cola Crate,34
+2025-09-22,Coca-Cola Crate,32
+2025-09-23,Coca-Cola Crate,27
+2025-09-24,Coca-Cola Crate,20
+2025-09-25,Coca-Cola Crate,28
+2025-09-26,Coca-Cola Crate,36
+2025-09-27,Coca-Cola Crate,39
+2025-09-28,Coca-Cola Crate,27
+2025-09-29,Coca-Cola Crate,28
+2025-09-30,Coca-Cola Crate,28
+2025-10-01,Coca-Cola Crate,23
+2025-10-02,Coca-Cola Crate,31
+2025-10-03,Coca-Cola Crate,38
+2025-10-04,Coca-Cola Crate,33
+2025-10-05,Coca-Cola Crate,44
+2025-10-06,Coca-Cola Crate,27
+2025-10-07,Coca-Cola Crate,26
+2025-10-08,Coca-Cola Crate,26
+2025-10-09,Coca-Cola Crate,24
+2025-10-10,Coca-Cola Crate,31
+2025-10-11,Coca-Cola Crate,27
+2025-10-12,Coca-Cola Crate,33
+2025-10-13,Coca-Cola Crate,29
+2025-10-14,Coca-Cola Crate,17
+2025-10-15,Coca-Cola Crate,28
+2025-10-16,Coca-Cola Crate,29
+2025-10-17,Coca-Cola Crate,37
+2025-10-18,Coca-Cola Crate,40
+2025-10-19,Coca-Cola Crate,39
+2025-10-20,Coca-Cola Crate,25
+2025-10-21,Coca-Cola Crate,25
+2025-10-22,Coca-Cola Crate,31
+2025-10-23,Coca-Cola Crate,26
+2025-10-24,Coca-Cola Crate,28
+2025-10-25,Coca-Cola Crate,46
+2025-10-26,Coca-Cola Crate,33
+2025-10-27,Coca-Cola Crate,26
+2025-10-28,Coca-Cola Crate,18
+2025-10-29,Coca-Cola Crate,33
+2025-10-30,Coca-Cola Crate,24
+2025-10-31,Coca-Cola Crate,35
+2025-11-01,Coca-Cola Crate,39
+2025-11-02,Coca-Cola Crate,30
+2025-11-03,Coca-Cola Crate,29
+2025-11-04,Coca-Cola Crate,36
+2025-11-05,Coca-Cola Crate,17
+2025-11-06,Coca-Cola Crate,25
+2025-11-07,Coca-Cola Crate,30
+2025-11-08,Coca-Cola Crate,34
+2025-11-09,Coca-Cola Crate,35
+2025-11-10,Coca-Cola Crate,24
+2025-11-11,Coca-Cola Crate,26
+2025-11-12,Coca-Cola Crate,25
+2025-11-13,Coca-Cola Crate,27
+2025-11-14,Coca-Cola Crate,36
+2025-11-15,Coca-Cola Crate,39
+2025-11-16,Coca-Cola Crate,40
+2025-11-17,Coca-Cola Crate,32
+2025-11-18,Coca-Cola Crate,25
+2025-11-19,Coca-Cola Crate,29
+2025-11-20,Coca-Cola Crate,41
+2025-11-21,Coca-Cola Crate,40
+2025-11-22,Coca-Cola Crate,33
+2025-11-23,Coca-Cola Crate,43
+2025-11-24,Coca-Cola Crate,27
+2025-11-25,Coca-Cola Crate,26
+2025-11-26,Coca-Cola Crate,36
+2025-11-27,Coca-Cola Crate,23
+2025-11-28,Coca-Cola Crate,26
+2025-11-29,Coca-Cola Crate,40
+2025-11-30,Coca-Cola Crate,35
+2025-12-01,Coca-Cola Crate,30
+2025-12-02,Coca-Cola Crate,28
+2025-12-03,Coca-Cola Crate,28
+2025-12-04,Coca-Cola Crate,27
+2025-12-05,Coca-Cola Crate,32
+2025-12-06,Coca-Cola Crate,33
+2025-12-07,Coca-Cola Crate,33
+2025-12-08,Coca-Cola Crate,25
+2025-12-09,Coca-Cola Crate,27
+2025-12-10,Coca-Cola Crate,17
+2025-12-11,Coca-Cola Crate,33
+2025-12-12,Coca-Cola Crate,37
+2025-12-13,Coca-Cola Crate,35
+2025-12-14,Coca-Cola Crate,37
+2025-12-15,Coca-Cola Crate,31
+2025-12-16,Coca-Cola Crate,26
+2025-12-17,Coca-Cola Crate,27
+2025-12-18,Coca-Cola Crate,32
+2025-12-19,Coca-Cola Crate,37
+2025-12-20,Coca-Cola Crate,46
+2025-12-21,Coca-Cola Crate,44
+2025-12-22,Coca-Cola Crate,34
+2025-12-23,Coca-Cola Crate,26
+2025-12-24,Coca-Cola Crate,27
+2025-12-25,Coca-Cola Crate,25
+2025-12-26,Coca-Cola Crate,37
+2025-12-27,Coca-Cola Crate,22
+2025-12-28,Coca-Cola Crate,34
+2025-12-29,Coca-Cola Crate,28
+2025-12-30,Coca-Cola Crate,22
+2025-12-31,Coca-Cola Crate,34
+2025-07-01,Peak Milk Tin,55
+2025-07-02,Peak Milk Tin,58
+2025-07-03,Peak Milk Tin,47
+2025-07-04,Peak Milk Tin,73
+2025-07-05,Peak Milk Tin,77
+2025-07-06,Peak Milk Tin,57
+2025-07-07,Peak Milk Tin,49
+2025-07-08,Peak Milk Tin,57
+2025-07-09,Peak Milk Tin,53
+2025-07-10,Peak Milk Tin,57
+2025-07-11,Peak Milk Tin,67
+2025-07-12,Peak Milk Tin,63
+2025-07-13,Peak Milk Tin,74
+2025-07-14,Peak Milk Tin,59
+2025-07-15,Peak Milk Tin,54
+2025-07-16,Peak Milk Tin,64
+2025-07-17,Peak Milk Tin,54
+2025-07-18,Peak Milk Tin,62
+2025-07-19,Peak Milk Tin,69
+2025-07-20,Peak Milk Tin,70
+2025-07-21,Peak Milk Tin,60
+2025-07-22,Peak Milk Tin,60
+2025-07-23,Peak Milk Tin,60
+2025-07-24,Peak Milk Tin,59
+2025-07-25,Peak Milk Tin,66
+2025-07-26,Peak Milk Tin,65
+2025-07-27,Peak Milk Tin,73
+2025-07-28,Peak Milk Tin,59
+2025-07-29,Peak Milk Tin,62
+2025-07-30,Peak Milk Tin,49
+2025-07-31,Peak Milk Tin,55
+2025-08-01,Peak Milk Tin,79
+2025-08-02,Peak Milk Tin,72
+2025-08-03,Peak Milk Tin,71
+2025-08-04,Peak Milk Tin,61
+2025-08-05,Peak Milk Tin,69
+2025-08-06,Peak Milk Tin,68
+2025-08-07,Peak Milk Tin,50
+2025-08-08,Peak Milk Tin,64
+2025-08-09,Peak Milk Tin,62
+2025-08-10,Peak Milk Tin,66
+2025-08-11,Peak Milk Tin,59
+2025-08-12,Peak Milk Tin,60
+2025-08-13,Peak Milk Tin,51
+2025-08-14,Peak Milk Tin,49
+2025-08-15,Peak Milk Tin,67
+2025-08-16,Peak Milk Tin,75
+2025-08-17,Peak Milk Tin,76
+2025-08-18,Peak Milk Tin,67
+2025-08-19,Peak Milk Tin,59
+2025-08-20,Peak Milk Tin,63
+2025-08-21,Peak Milk Tin,64
+2025-08-22,Peak Milk Tin,69
+2025-08-23,Peak Milk Tin,73
+2025-08-24,Peak Milk Tin,75
+2025-08-25,Peak Milk Tin,55
+2025-08-26,Peak Milk Tin,68
+2025-08-27,Peak Milk Tin,59
+2025-08-28,Peak Milk Tin,60
+2025-08-29,Peak Milk Tin,67
+2025-08-30,Peak Milk Tin,68
+2025-08-31,Peak Milk Tin,61
+2025-09-01,Peak Milk Tin,60
+2025-09-02,Peak Milk Tin,72
+2025-09-03,Peak Milk Tin,55
+2025-09-04,Peak Milk Tin,75
+2025-09-05,Peak Milk Tin,79
+2025-09-06,Peak Milk Tin,70
+2025-09-07,Peak Milk Tin,73
+2025-09-08,Peak Milk Tin,60
+2025-09-09,Peak Milk Tin,69
+2025-09-10,Peak Milk Tin,63
+2025-09-11,Peak Milk Tin,66
+2025-09-12,Peak Milk Tin,75
+2025-09-13,Peak Milk Tin,72
+2025-09-14,Peak Milk Tin,75
+2025-09-15,Peak Milk Tin,59
+2025-09-16,Peak Milk Tin,54
+2025-09-17,Peak Milk Tin,65
+2025-09-18,Peak Milk Tin,54
+2025-09-19,Peak Milk Tin,72
+2025-09-20,Peak Milk Tin,71
+2025-09-21,Peak Milk Tin,77
+2025-09-22,Peak Milk Tin,69
+2025-09-23,Peak Milk Tin,67
+2025-09-24,Peak Milk Tin,65
+2025-09-25,Peak Milk Tin,58
+2025-09-26,Peak Milk Tin,73
+2025-09-27,Peak Milk Tin,72
+2025-09-28,Peak Milk Tin,72
+2025-09-29,Peak Milk Tin,60
+2025-09-30,Peak Milk Tin,60
+2025-10-01,Peak Milk Tin,60
+2025-10-02,Peak Milk Tin,67
+2025-10-03,Peak Milk Tin,69
+2025-10-04,Peak Milk Tin,71
+2025-10-05,Peak Milk Tin,67
+2025-10-06,Peak Milk Tin,69
+2025-10-07,Peak Milk Tin,58
+2025-10-08,Peak Milk Tin,66
+2025-10-09,Peak Milk Tin,65
+2025-10-10,Peak Milk Tin,82
+2025-10-11,Peak Milk Tin,74
+2025-10-12,Peak Milk Tin,71
+2025-10-13,Peak Milk Tin,55
+2025-10-14,Peak Milk Tin,49
+2025-10-15,Peak Milk Tin,64
+2025-10-16,Peak Milk Tin,67
+2025-10-17,Peak Milk Tin,78
+2025-10-18,Peak Milk Tin,68
+2025-10-19,Peak Milk Tin,81
+2025-10-20,Peak Milk Tin,60
+2025-10-21,Peak Milk Tin,59
+2025-10-22,Peak Milk Tin,60
+2025-10-23,Peak Milk Tin,64
+2025-10-24,Peak Milk Tin,69
+2025-10-25,Peak Milk Tin,76
+2025-10-26,Peak Milk Tin,79
+2025-10-27,Peak Milk Tin,69
+2025-10-28,Peak Milk Tin,65
+2025-10-29,Peak Milk Tin,57
+2025-10-30,Peak Milk Tin,65
+2025-10-31,Peak Milk Tin,72
+2025-11-01,Peak Milk Tin,72
+2025-11-02,Peak Milk Tin,70
+2025-11-03,Peak Milk Tin,55
+2025-11-04,Peak Milk Tin,62
+2025-11-05,Peak Milk Tin,70
+2025-11-06,Peak Milk Tin,76
+2025-11-07,Peak Milk Tin,75
+2025-11-08,Peak Milk Tin,83
+2025-11-09,Peak Milk Tin,76
+2025-11-10,Peak Milk Tin,57
+2025-11-11,Peak Milk Tin,68
+2025-11-12,Peak Milk Tin,66
+2025-11-13,Peak Milk Tin,74
+2025-11-14,Peak Milk Tin,71
+2025-11-15,Peak Milk Tin,92
+2025-11-16,Peak Milk Tin,86
+2025-11-17,Peak Milk Tin,65
+2025-11-18,Peak Milk Tin,64
+2025-11-19,Peak Milk Tin,62
+2025-11-20,Peak Milk Tin,66
+2025-11-21,Peak Milk Tin,78
+2025-11-22,Peak Milk Tin,81
+2025-11-23,Peak Milk Tin,77
+2025-11-24,Peak Milk Tin,73
+2025-11-25,Peak Milk Tin,66
+2025-11-26,Peak Milk Tin,65
+2025-11-27,Peak Milk Tin,71
+2025-11-28,Peak Milk Tin,71
+2025-11-29,Peak Milk Tin,81
+2025-11-30,Peak Milk Tin,80
+2025-12-01,Peak Milk Tin,59
+2025-12-02,Peak Milk Tin,58
+2025-12-03,Peak Milk Tin,71
+2025-12-04,Peak Milk Tin,71
+2025-12-05,Peak Milk Tin,81
+2025-12-06,Peak Milk Tin,89
+2025-12-07,Peak Milk Tin,82
+2025-12-08,Peak Milk Tin,73
+2025-12-09,Peak Milk Tin,69
+2025-12-10,Peak Milk Tin,66
+2025-12-11,Peak Milk Tin,62
+2025-12-12,Peak Milk Tin,78
+2025-12-13,Peak Milk Tin,79
+2025-12-14,Peak Milk Tin,88
+2025-12-15,Peak Milk Tin,71
+2025-12-16,Peak Milk Tin,69
+2025-12-17,Peak Milk Tin,72
+2025-12-18,Peak Milk Tin,70
+2025-12-19,Peak Milk Tin,82
+2025-12-20,Peak Milk Tin,74
+2025-12-21,Peak Milk Tin,87
+2025-12-22,Peak Milk Tin,65
+2025-12-23,Peak Milk Tin,73
+2025-12-24,Peak Milk Tin,74
+2025-12-25,Peak Milk Tin,65
+2025-12-26,Peak Milk Tin,87
+2025-12-27,Peak Milk Tin,80
+2025-12-28,Peak Milk Tin,80
+2025-12-29,Peak Milk Tin,70
+2025-12-30,Peak Milk Tin,70
+2025-12-31,Peak Milk Tin,69
+2025-07-01,Golden Penny Flour,40
+2025-07-02,Golden Penny Flour,41
+2025-07-03,Golden Penny Flour,43
+2025-07-04,Golden Penny Flour,42
+2025-07-05,Golden Penny Flour,44
+2025-07-06,Golden Penny Flour,54
+2025-07-07,Golden Penny Flour,43
+2025-07-08,Golden Penny Flour,41
+2025-07-09,Golden Penny Flour,42
+2025-07-10,Golden Penny Flour,44
+2025-07-11,Golden Penny Flour,48
+2025-07-12,Golden Penny Flour,47
+2025-07-13,Golden Penny Flour,52
+2025-07-14,Golden Penny Flour,38
+2025-07-15,Golden Penny Flour,45
+2025-07-16,Golden Penny Flour,34
+2025-07-17,Golden Penny Flour,48
+2025-07-18,Golden Penny Flour,54
+2025-07-19,Golden Penny Flour,53
+2025-07-20,Golden Penny Flour,56
+2025-07-21,Golden Penny Flour,51
+2025-07-22,Golden Penny Flour,48
+2025-07-23,Golden Penny Flour,34
+2025-07-24,Golden Penny Flour,37
+2025-07-25,Golden Penny Flour,49
+2025-07-26,Golden Penny Flour,52
+2025-07-27,Golden Penny Flour,55
+2025-07-28,Golden Penny Flour,40
+2025-07-29,Golden Penny Flour,44
+2025-07-30,Golden Penny Flour,40
+2025-07-31,Golden Penny Flour,41
+2025-08-01,Golden Penny Flour,46
+2025-08-02,Golden Penny Flour,48
+2025-08-03,Golden Penny Flour,46
+2025-08-04,Golden Penny Flour,39
+2025-08-05,Golden Penny Flour,49
+2025-08-06,Golden Penny Flour,39
+2025-08-07,Golden Penny Flour,57
+2025-08-08,Golden Penny Flour,56
+2025-08-09,Golden Penny Flour,54
+2025-08-10,Golden Penny Flour,49
+2025-08-11,Golden Penny Flour,48
+2025-08-12,Golden Penny Flour,42
+2025-08-13,Golden Penny Flour,45
+2025-08-14,Golden Penny Flour,57
+2025-08-15,Golden Penny Flour,53
+2025-08-16,Golden Penny Flour,60
+2025-08-17,Golden Penny Flour,50
+2025-08-18,Golden Penny Flour,45
+2025-08-19,Golden Penny Flour,54
+2025-08-20,Golden Penny Flour,42
+2025-08-21,Golden Penny Flour,54
+2025-08-22,Golden Penny Flour,58
+2025-08-23,Golden Penny Flour,52
+2025-08-24,Golden Penny Flour,58
+2025-08-25,Golden Penny Flour,50
+2025-08-26,Golden Penny Flour,49
+2025-08-27,Golden Penny Flour,38
+2025-08-28,Golden Penny Flour,42
+2025-08-29,Golden Penny Flour,54
+2025-08-30,Golden Penny Flour,55
+2025-08-31,Golden Penny Flour,58
+2025-09-01,Golden Penny Flour,47
+2025-09-02,Golden Penny Flour,39
+2025-09-03,Golden Penny Flour,48
+2025-09-04,Golden Penny Flour,49
+2025-09-05,Golden Penny Flour,58
+2025-09-06,Golden Penny Flour,61
+2025-09-07,Golden Penny Flour,60
+2025-09-08,Golden Penny Flour,49
+2025-09-09,Golden Penny Flour,46
+2025-09-10,Golden Penny Flour,38
+2025-09-11,Golden Penny Flour,49
+2025-09-12,Golden Penny Flour,57
+2025-09-13,Golden Penny Flour,58
+2025-09-14,Golden Penny Flour,50
+2025-09-15,Golden Penny Flour,42
+2025-09-16,Golden Penny Flour,52
+2025-09-17,Golden Penny Flour,47
+2025-09-18,Golden Penny Flour,51
+2025-09-19,Golden Penny Flour,57
+2025-09-20,Golden Penny Flour,57
+2025-09-21,Golden Penny Flour,62
+2025-09-22,Golden Penny Flour,45
+2025-09-23,Golden Penny Flour,48
+2025-09-24,Golden Penny Flour,45
+2025-09-25,Golden Penny Flour,45
+2025-09-26,Golden Penny Flour,56
+2025-09-27,Golden Penny Flour,59
+2025-09-28,Golden Penny Flour,55
+2025-09-29,Golden Penny Flour,54
+2025-09-30,Golden Penny Flour,44
+2025-10-01,Golden Penny Flour,47
+2025-10-02,Golden Penny Flour,46
+2025-10-03,Golden Penny Flour,65
+2025-10-04,Golden Penny Flour,59
+2025-10-05,Golden Penny Flour,63
+2025-10-06,Golden Penny Flour,41
+2025-10-07,Golden Penny Flour,50
+2025-10-08,Golden Penny Flour,53
+2025-10-09,Golden Penny Flour,49
+2025-10-10,Golden Penny Flour,64
+2025-10-11,Golden Penny Flour,56
+2025-10-12,Golden Penny Flour,66
+2025-10-13,Golden Penny Flour,60
+2025-10-14,Golden Penny Flour,47
+2025-10-15,Golden Penny Flour,47
+2025-10-16,Golden Penny Flour,56
+2025-10-17,Golden Penny Flour,67
+2025-10-18,Golden Penny Flour,57
+2025-10-19,Golden Penny Flour,57
+2025-10-20,Golden Penny Flour,48
+2025-10-21,Golden Penny Flour,43
+2025-10-22,Golden Penny Flour,45
+2025-10-23,Golden Penny Flour,45
+2025-10-24,Golden Penny Flour,56
+2025-10-25,Golden Penny Flour,60
+2025-10-26,Golden Penny Flour,61
+2025-10-27,Golden Penny Flour,58
+2025-10-28,Golden Penny Flour,45
+2025-10-29,Golden Penny Flour,55
+2025-10-30,Golden Penny Flour,49
+2025-10-31,Golden Penny Flour,60
+2025-11-01,Golden Penny Flour,64
+2025-11-02,Golden Penny Flour,55
+2025-11-03,Golden Penny Flour,52
+2025-11-04,Golden Penny Flour,51
+2025-11-05,Golden Penny Flour,53
+2025-11-06,Golden Penny Flour,52
+2025-11-07,Golden Penny Flour,73
+2025-11-08,Golden Penny Flour,58
+2025-11-09,Golden Penny Flour,58
+2025-11-10,Golden Penny Flour,48
+2025-11-11,Golden Penny Flour,48
+2025-11-12,Golden Penny Flour,48
+2025-11-13,Golden Penny Flour,57
+2025-11-14,Golden Penny Flour,69
+2025-11-15,Golden Penny Flour,59
+2025-11-16,Golden Penny Flour,58
+2025-11-17,Golden Penny Flour,54
+2025-11-18,Golden Penny Flour,49
+2025-11-19,Golden Penny Flour,55
+2025-11-20,Golden Penny Flour,53
+2025-11-21,Golden Penny Flour,55
+2025-11-22,Golden Penny Flour,70
+2025-11-23,Golden Penny Flour,71
+2025-11-24,Golden Penny Flour,49
+2025-11-25,Golden Penny Flour,50
+2025-11-26,Golden Penny Flour,53
+2025-11-27,Golden Penny Flour,54
+2025-11-28,Golden Penny Flour,66
+2025-11-29,Golden Penny Flour,73
+2025-11-30,Golden Penny Flour,62
+2025-12-01,Golden Penny Flour,48
+2025-12-02,Golden Penny Flour,46
+2025-12-03,Golden Penny Flour,49
+2025-12-04,Golden Penny Flour,52
+2025-12-05,Golden Penny Flour,72
+2025-12-06,Golden Penny Flour,61
+2025-12-07,Golden Penny Flour,65
+2025-12-08,Golden Penny Flour,53
+2025-12-09,Golden Penny Flour,59
+2025-12-10,Golden Penny Flour,66
+2025-12-11,Golden Penny Flour,50
+2025-12-12,Golden Penny Flour,62
+2025-12-13,Golden Penny Flour,69
+2025-12-14,Golden Penny Flour,68
+2025-12-15,Golden Penny Flour,63
+2025-12-16,Golden Penny Flour,56
+2025-12-17,Golden Penny Flour,52
+2025-12-18,Golden Penny Flour,57
+2025-12-19,Golden Penny Flour,70
+2025-12-20,Golden Penny Flour,69
+2025-12-21,Golden Penny Flour,67
+2025-12-22,Golden Penny Flour,59
+2025-12-23,Golden Penny Flour,60
+2025-12-24,Golden Penny Flour,61
+2025-12-25,Golden Penny Flour,57
+2025-12-26,Golden Penny Flour,64
+2025-12-27,Golden Penny Flour,66
+2025-12-28,Golden Penny Flour,71
+2025-12-29,Golden Penny Flour,50
+2025-12-30,Golden Penny Flour,56
+2025-12-31,Golden Penny Flour,53
+2025-07-01,Sugar 1kg,29
+2025-07-02,Sugar 1kg,29
+2025-07-03,Sugar 1kg,31
+2025-07-04,Sugar 1kg,36
+2025-07-05,Sugar 1kg,34
+2025-07-06,Sugar 1kg,40
+2025-07-07,Sugar 1kg,32
+2025-07-08,Sugar 1kg,34
+2025-07-09,Sugar 1kg,39
+2025-07-10,Sugar 1kg,32
+2025-07-11,Sugar 1kg,34
+2025-07-12,Sugar 1kg,38
+2025-07-13,Sugar 1kg,44
+2025-07-14,Sugar 1kg,37
+2025-07-15,Sugar 1kg,36
+2025-07-16,Sugar 1kg,30
+2025-07-17,Sugar 1kg,37
+2025-07-18,Sugar 1kg,45
+2025-07-19,Sugar 1kg,37
+2025-07-20,Sugar 1kg,40
+2025-07-21,Sugar 1kg,44
+2025-07-22,Sugar 1kg,30
+2025-07-23,Sugar 1kg,25
+2025-07-24,Sugar 1kg,41
+2025-07-25,Sugar 1kg,46
+2025-07-26,Sugar 1kg,38
+2025-07-27,Sugar 1kg,40
+2025-07-28,Sugar 1kg,28
+2025-07-29,Sugar 1kg,34
+2025-07-30,Sugar 1kg,40
+2025-07-31,Sugar 1kg,31
+2025-08-01,Sugar 1kg,45
+2025-08-02,Sugar 1kg,43
+2025-08-03,Sugar 1kg,44
+2025-08-04,Sugar 1kg,32
+2025-08-05,Sugar 1kg,33
+2025-08-06,Sugar 1kg,25
+2025-08-07,Sugar 1kg,32
+2025-08-08,Sugar 1kg,47
+2025-08-09,Sugar 1kg,37
+2025-08-10,Sugar 1kg,38
+2025-08-11,Sugar 1kg,38
+2025-08-12,Sugar 1kg,37
+2025-08-13,Sugar 1kg,38
+2025-08-14,Sugar 1kg,29
+2025-08-15,Sugar 1kg,55
+2025-08-16,Sugar 1kg,36
+2025-08-17,Sugar 1kg,43
+2025-08-18,Sugar 1kg,34
+2025-08-19,Sugar 1kg,29
+2025-08-20,Sugar 1kg,33
+2025-08-21,Sugar 1kg,35
+2025-08-22,Sugar 1kg,39
+2025-08-23,Sugar 1kg,47
+2025-08-24,Sugar 1kg,42
+2025-08-25,Sugar 1kg,29
+2025-08-26,Sugar 1kg,28
+2025-08-27,Sugar 1kg,39
+2025-08-28,Sugar 1kg,28
+2025-08-29,Sugar 1kg,45
+2025-08-30,Sugar 1kg,45
+2025-08-31,Sugar 1kg,38
+2025-09-01,Sugar 1kg,40
+2025-09-02,Sugar 1kg,27
+2025-09-03,Sugar 1kg,37
+2025-09-04,Sugar 1kg,36
+2025-09-05,Sugar 1kg,43
+2025-09-06,Sugar 1kg,38
+2025-09-07,Sugar 1kg,39
+2025-09-08,Sugar 1kg,44
+2025-09-09,Sugar 1kg,42
+2025-09-10,Sugar 1kg,40
+2025-09-11,Sugar 1kg,41
+2025-09-12,Sugar 1kg,48
+2025-09-13,Sugar 1kg,42
+2025-09-14,Sugar 1kg,44
+2025-09-15,Sugar 1kg,29
+2025-09-16,Sugar 1kg,36
+2025-09-17,Sugar 1kg,43
+2025-09-18,Sugar 1kg,33
+2025-09-19,Sugar 1kg,49
+2025-09-20,Sugar 1kg,45
+2025-09-21,Sugar 1kg,37
+2025-09-22,Sugar 1kg,31
+2025-09-23,Sugar 1kg,42
+2025-09-24,Sugar 1kg,40
+2025-09-25,Sugar 1kg,38
+2025-09-26,Sugar 1kg,43
+2025-09-27,Sugar 1kg,46
+2025-09-28,Sugar 1kg,49
+2025-09-29,Sugar 1kg,45
+2025-09-30,Sugar 1kg,45
+2025-10-01,Sugar 1kg,39
+2025-10-02,Sugar 1kg,37
+2025-10-03,Sugar 1kg,46
+2025-10-04,Sugar 1kg,48
+2025-10-05,Sugar 1kg,48
+2025-10-06,Sugar 1kg,44
+2025-10-07,Sugar 1kg,48
+2025-10-08,Sugar 1kg,37
+2025-10-09,Sugar 1kg,49
+2025-10-10,Sugar 1kg,52
+2025-10-11,Sugar 1kg,45
+2025-10-12,Sugar 1kg,53
+2025-10-13,Sugar 1kg,47
+2025-10-14,Sugar 1kg,36
+2025-10-15,Sugar 1kg,47
+2025-10-16,Sugar 1kg,44
+2025-10-17,Sugar 1kg,58
+2025-10-18,Sugar 1kg,44
+2025-10-19,Sugar 1kg,44
+2025-10-20,Sugar 1kg,28
+2025-10-21,Sugar 1kg,41
+2025-10-22,Sugar 1kg,40
+2025-10-23,Sugar 1kg,36
+2025-10-24,Sugar 1kg,46
+2025-10-25,Sugar 1kg,40
+2025-10-26,Sugar 1kg,53
+2025-10-27,Sugar 1kg,36
+2025-10-28,Sugar 1kg,54
+2025-10-29,Sugar 1kg,38
+2025-10-30,Sugar 1kg,35
+2025-10-31,Sugar 1kg,45
+2025-11-01,Sugar 1kg,40
+2025-11-02,Sugar 1kg,50
+2025-11-03,Sugar 1kg,37
+2025-11-04,Sugar 1kg,45
+2025-11-05,Sugar 1kg,38
+2025-11-06,Sugar 1kg,46
+2025-11-07,Sugar 1kg,51
+2025-11-08,Sugar 1kg,48
+2025-11-09,Sugar 1kg,55
+2025-11-10,Sugar 1kg,44
+2025-11-11,Sugar 1kg,54
+2025-11-12,Sugar 1kg,38
+2025-11-13,Sugar 1kg,40
+2025-11-14,Sugar 1kg,56
+2025-11-15,Sugar 1kg,40
+2025-11-16,Sugar 1kg,55
+2025-11-17,Sugar 1kg,42
+2025-11-18,Sugar 1kg,36
+2025-11-19,Sugar 1kg,33
+2025-11-20,Sugar 1kg,37
+2025-11-21,Sugar 1kg,37
+2025-11-22,Sugar 1kg,46
+2025-11-23,Sugar 1kg,52
+2025-11-24,Sugar 1kg,38
+2025-11-25,Sugar 1kg,47
+2025-11-26,Sugar 1kg,49
+2025-11-27,Sugar 1kg,47
+2025-11-28,Sugar 1kg,50
+2025-11-29,Sugar 1kg,37
+2025-11-30,Sugar 1kg,45
+2025-12-01,Sugar 1kg,40
+2025-12-02,Sugar 1kg,36
+2025-12-03,Sugar 1kg,40
+2025-12-04,Sugar 1kg,49
+2025-12-05,Sugar 1kg,41
+2025-12-06,Sugar 1kg,58
+2025-12-07,Sugar 1kg,54
+2025-12-08,Sugar 1kg,42
+2025-12-09,Sugar 1kg,38
+2025-12-10,Sugar 1kg,37
+2025-12-11,Sugar 1kg,33
+2025-12-12,Sugar 1kg,58
+2025-12-13,Sugar 1kg,57
+2025-12-14,Sugar 1kg,43
+2025-12-15,Sugar 1kg,39
+2025-12-16,Sugar 1kg,44
+2025-12-17,Sugar 1kg,40
+2025-12-18,Sugar 1kg,32
+2025-12-19,Sugar 1kg,47
+2025-12-20,Sugar 1kg,60
+2025-12-21,Sugar 1kg,47
+2025-12-22,Sugar 1kg,41
+2025-12-23,Sugar 1kg,36
+2025-12-24,Sugar 1kg,45
+2025-12-25,Sugar 1kg,43
+2025-12-26,Sugar 1kg,47
+2025-12-27,Sugar 1kg,44
+2025-12-28,Sugar 1kg,58
+2025-12-29,Sugar 1kg,34
+2025-12-30,Sugar 1kg,45
+2025-12-31,Sugar 1kg,32
+2025-07-01,Palm Oil 5L,54
+2025-07-02,Palm Oil 5L,58
+2025-07-03,Palm Oil 5L,45
+2025-07-04,Palm Oil 5L,54
+2025-07-05,Palm Oil 5L,57
+2025-07-06,Palm Oil 5L,54
+2025-07-07,Palm Oil 5L,44
+2025-07-08,Palm Oil 5L,44
+2025-07-09,Palm Oil 5L,56
+2025-07-10,Palm Oil 5L,51
+2025-07-11,Palm Oil 5L,55
+2025-07-12,Palm Oil 5L,45
+2025-07-13,Palm Oil 5L,49
+2025-07-14,Palm Oil 5L,50
+2025-07-15,Palm Oil 5L,37
+2025-07-16,Palm Oil 5L,49
+2025-07-17,Palm Oil 5L,43
+2025-07-18,Palm Oil 5L,58
+2025-07-19,Palm Oil 5L,58
+2025-07-20,Palm Oil 5L,58
+2025-07-21,Palm Oil 5L,46
+2025-07-22,Palm Oil 5L,46
+2025-07-23,Palm Oil 5L,45
+2025-07-24,Palm Oil 5L,51
+2025-07-25,Palm Oil 5L,62
+2025-07-26,Palm Oil 5L,52
+2025-07-27,Palm Oil 5L,58
+2025-07-28,Palm Oil 5L,50
+2025-07-29,Palm Oil 5L,50
+2025-07-30,Palm Oil 5L,50
+2025-07-31,Palm Oil 5L,47
+2025-08-01,Palm Oil 5L,60
+2025-08-02,Palm Oil 5L,62
+2025-08-03,Palm Oil 5L,60
+2025-08-04,Palm Oil 5L,52
+2025-08-05,Palm Oil 5L,54
+2025-08-06,Palm Oil 5L,40
+2025-08-07,Palm Oil 5L,54
+2025-08-08,Palm Oil 5L,61
+2025-08-09,Palm Oil 5L,54
+2025-08-10,Palm Oil 5L,64
+2025-08-11,Palm Oil 5L,48
+2025-08-12,Palm Oil 5L,49
+2025-08-13,Palm Oil 5L,48
+2025-08-14,Palm Oil 5L,52
+2025-08-15,Palm Oil 5L,57
+2025-08-16,Palm Oil 5L,65
+2025-08-17,Palm Oil 5L,60
+2025-08-18,Palm Oil 5L,49
+2025-08-19,Palm Oil 5L,54
+2025-08-20,Palm Oil 5L,49
+2025-08-21,Palm Oil 5L,56
+2025-08-22,Palm Oil 5L,66
+2025-08-23,Palm Oil 5L,55
+2025-08-24,Palm Oil 5L,67
+2025-08-25,Palm Oil 5L,44
+2025-08-26,Palm Oil 5L,57
+2025-08-27,Palm Oil 5L,61
+2025-08-28,Palm Oil 5L,56
+2025-08-29,Palm Oil 5L,51
+2025-08-30,Palm Oil 5L,67
+2025-08-31,Palm Oil 5L,73
+2025-09-01,Palm Oil 5L,50
+2025-09-02,Palm Oil 5L,52
+2025-09-03,Palm Oil 5L,46
+2025-09-04,Palm Oil 5L,54
+2025-09-05,Palm Oil 5L,69
+2025-09-06,Palm Oil 5L,66
+2025-09-07,Palm Oil 5L,78
+2025-09-08,Palm Oil 5L,52
+2025-09-09,Palm Oil 5L,44
+2025-09-10,Palm Oil 5L,53
+2025-09-11,Palm Oil 5L,40
+2025-09-12,Palm Oil 5L,61
+2025-09-13,Palm Oil 5L,72
+2025-09-14,Palm Oil 5L,65
+2025-09-15,Palm Oil 5L,54
+2025-09-16,Palm Oil 5L,62
+2025-09-17,Palm Oil 5L,52
+2025-09-18,Palm Oil 5L,59
+2025-09-19,Palm Oil 5L,65
+2025-09-20,Palm Oil 5L,66
+2025-09-21,Palm Oil 5L,58
+2025-09-22,Palm Oil 5L,51
+2025-09-23,Palm Oil 5L,47
+2025-09-24,Palm Oil 5L,53
+2025-09-25,Palm Oil 5L,56
+2025-09-26,Palm Oil 5L,59
+2025-09-27,Palm Oil 5L,75
+2025-09-28,Palm Oil 5L,66
+2025-09-29,Palm Oil 5L,54
+2025-09-30,Palm Oil 5L,58
+2025-10-01,Palm Oil 5L,50
+2025-10-02,Palm Oil 5L,55
+2025-10-03,Palm Oil 5L,62
+2025-10-04,Palm Oil 5L,73
+2025-10-05,Palm Oil 5L,60
+2025-10-06,Palm Oil 5L,55
+2025-10-07,Palm Oil 5L,56
+2025-10-08,Palm Oil 5L,57
+2025-10-09,Palm Oil 5L,52
+2025-10-10,Palm Oil 5L,62
+2025-10-11,Palm Oil 5L,63
+2025-10-12,Palm Oil 5L,69
+2025-10-13,Palm Oil 5L,55
+2025-10-14,Palm Oil 5L,59
+2025-10-15,Palm Oil 5L,58
+2025-10-16,Palm Oil 5L,44
+2025-10-17,Palm Oil 5L,68
+2025-10-18,Palm Oil 5L,78
+2025-10-19,Palm Oil 5L,74
+2025-10-20,Palm Oil 5L,58
+2025-10-21,Palm Oil 5L,51
+2025-10-22,Palm Oil 5L,58
+2025-10-23,Palm Oil 5L,60
+2025-10-24,Palm Oil 5L,66
+2025-10-25,Palm Oil 5L,69
+2025-10-26,Palm Oil 5L,75
+2025-10-27,Palm Oil 5L,52
+2025-10-28,Palm Oil 5L,51
+2025-10-29,Palm Oil 5L,60
+2025-10-30,Palm Oil 5L,59
+2025-10-31,Palm Oil 5L,73
+2025-11-01,Palm Oil 5L,71
+2025-11-02,Palm Oil 5L,66
+2025-11-03,Palm Oil 5L,59
+2025-11-04,Palm Oil 5L,51
+2025-11-05,Palm Oil 5L,56
+2025-11-06,Palm Oil 5L,60
+2025-11-07,Palm Oil 5L,67
+2025-11-08,Palm Oil 5L,81
+2025-11-09,Palm Oil 5L,60
+2025-11-10,Palm Oil 5L,55
+2025-11-11,Palm Oil 5L,53
+2025-11-12,Palm Oil 5L,54
+2025-11-13,Palm Oil 5L,55
+2025-11-14,Palm Oil 5L,63
+2025-11-15,Palm Oil 5L,74
+2025-11-16,Palm Oil 5L,67
+2025-11-17,Palm Oil 5L,59
+2025-11-18,Palm Oil 5L,56
+2025-11-19,Palm Oil 5L,55
+2025-11-20,Palm Oil 5L,67
+2025-11-21,Palm Oil 5L,75
+2025-11-22,Palm Oil 5L,61
+2025-11-23,Palm Oil 5L,61
+2025-11-24,Palm Oil 5L,64
+2025-11-25,Palm Oil 5L,56
+2025-11-26,Palm Oil 5L,51
+2025-11-27,Palm Oil 5L,64
+2025-11-28,Palm Oil 5L,72
+2025-11-29,Palm Oil 5L,72
+2025-11-30,Palm Oil 5L,75
+2025-12-01,Palm Oil 5L,53
+2025-12-02,Palm Oil 5L,51
+2025-12-03,Palm Oil 5L,67
+2025-12-04,Palm Oil 5L,52
+2025-12-05,Palm Oil 5L,66
+2025-12-06,Palm Oil 5L,67
+2025-12-07,Palm Oil 5L,82
+2025-12-08,Palm Oil 5L,62
+2025-12-09,Palm Oil 5L,65
+2025-12-10,Palm Oil 5L,61
+2025-12-11,Palm Oil 5L,57
+2025-12-12,Palm Oil 5L,76
+2025-12-13,Palm Oil 5L,65
+2025-12-14,Palm Oil 5L,67
+2025-12-15,Palm Oil 5L,64
+2025-12-16,Palm Oil 5L,54
+2025-12-17,Palm Oil 5L,60
+2025-12-18,Palm Oil 5L,60
+2025-12-19,Palm Oil 5L,71
+2025-12-20,Palm Oil 5L,64
+2025-12-21,Palm Oil 5L,70
+2025-12-22,Palm Oil 5L,57
+2025-12-23,Palm Oil 5L,62
+2025-12-24,Palm Oil 5L,62
+2025-12-25,Palm Oil 5L,63
+2025-12-26,Palm Oil 5L,71
+2025-12-27,Palm Oil 5L,77
+2025-12-28,Palm Oil 5L,66
+2025-12-29,Palm Oil 5L,53
+2025-12-30,Palm Oil 5L,50
+2025-12-31,Palm Oil 5L,59
+2025-07-01,Dettol Soap,42
+2025-07-02,Dettol Soap,45
+2025-07-03,Dettol Soap,42
+2025-07-04,Dettol Soap,56
+2025-07-05,Dettol Soap,46
+2025-07-06,Dettol Soap,51
+2025-07-07,Dettol Soap,39
+2025-07-08,Dettol Soap,44
+2025-07-09,Dettol Soap,44
+2025-07-10,Dettol Soap,45
+2025-07-11,Dettol Soap,45
+2025-07-12,Dettol Soap,46
+2025-07-13,Dettol Soap,47
+2025-07-14,Dettol Soap,41
+2025-07-15,Dettol Soap,43
+2025-07-16,Dettol Soap,46
+2025-07-17,Dettol Soap,38
+2025-07-18,Dettol Soap,43
+2025-07-19,Dettol Soap,62
+2025-07-20,Dettol Soap,45
+2025-07-21,Dettol Soap,47
+2025-07-22,Dettol Soap,43
+2025-07-23,Dettol Soap,44
+2025-07-24,Dettol Soap,43
+2025-07-25,Dettol Soap,49
+2025-07-26,Dettol Soap,54
+2025-07-27,Dettol Soap,49
+2025-07-28,Dettol Soap,49
+2025-07-29,Dettol Soap,46
+2025-07-30,Dettol Soap,46
+2025-07-31,Dettol Soap,40
+2025-08-01,Dettol Soap,50
+2025-08-02,Dettol Soap,46
+2025-08-03,Dettol Soap,50
+2025-08-04,Dettol Soap,38
+2025-08-05,Dettol Soap,50
+2025-08-06,Dettol Soap,43
+2025-08-07,Dettol Soap,44
+2025-08-08,Dettol Soap,51
+2025-08-09,Dettol Soap,53
+2025-08-10,Dettol Soap,64
+2025-08-11,Dettol Soap,42
+2025-08-12,Dettol Soap,40
+2025-08-13,Dettol Soap,46
+2025-08-14,Dettol Soap,31
+2025-08-15,Dettol Soap,53
+2025-08-16,Dettol Soap,51
+2025-08-17,Dettol Soap,48
+2025-08-18,Dettol Soap,46
+2025-08-19,Dettol Soap,44
+2025-08-20,Dettol Soap,35
+2025-08-21,Dettol Soap,41
+2025-08-22,Dettol Soap,38
+2025-08-23,Dettol Soap,54
+2025-08-24,Dettol Soap,54
+2025-08-25,Dettol Soap,40
+2025-08-26,Dettol Soap,47
+2025-08-27,Dettol Soap,38
+2025-08-28,Dettol Soap,39
+2025-08-29,Dettol Soap,55
+2025-08-30,Dettol Soap,50
+2025-08-31,Dettol Soap,53
+2025-09-01,Dettol Soap,42
+2025-09-02,Dettol Soap,42
+2025-09-03,Dettol Soap,43
+2025-09-04,Dettol Soap,41
+2025-09-05,Dettol Soap,55
+2025-09-06,Dettol Soap,50
+2025-09-07,Dettol Soap,54
+2025-09-08,Dettol Soap,41
+2025-09-09,Dettol Soap,37
+2025-09-10,Dettol Soap,49
+2025-09-11,Dettol Soap,47
+2025-09-12,Dettol Soap,65
+2025-09-13,Dettol Soap,49
+2025-09-14,Dettol Soap,53
+2025-09-15,Dettol Soap,44
+2025-09-16,Dettol Soap,50
+2025-09-17,Dettol Soap,43
+2025-09-18,Dettol Soap,39
+2025-09-19,Dettol Soap,60
+2025-09-20,Dettol Soap,53
+2025-09-21,Dettol Soap,59
+2025-09-22,Dettol Soap,49
+2025-09-23,Dettol Soap,45
+2025-09-24,Dettol Soap,45
+2025-09-25,Dettol Soap,44
+2025-09-26,Dettol Soap,55
+2025-09-27,Dettol Soap,59
+2025-09-28,Dettol Soap,51
+2025-09-29,Dettol Soap,46
+2025-09-30,Dettol Soap,40
+2025-10-01,Dettol Soap,41
+2025-10-02,Dettol Soap,46
+2025-10-03,Dettol Soap,45
+2025-10-04,Dettol Soap,65
+2025-10-05,Dettol Soap,49
+2025-10-06,Dettol Soap,46
+2025-10-07,Dettol Soap,52
+2025-10-08,Dettol Soap,42
+2025-10-09,Dettol Soap,35
+2025-10-10,Dettol Soap,53
+2025-10-11,Dettol Soap,51
+2025-10-12,Dettol Soap,44
+2025-10-13,Dettol Soap,48
+2025-10-14,Dettol Soap,47
+2025-10-15,Dettol Soap,52
+2025-10-16,Dettol Soap,41
+2025-10-17,Dettol Soap,48
+2025-10-18,Dettol Soap,54
+2025-10-19,Dettol Soap,56
+2025-10-20,Dettol Soap,51
+2025-10-21,Dettol Soap,54
+2025-10-22,Dettol Soap,53
+2025-10-23,Dettol Soap,48
+2025-10-24,Dettol Soap,60
+2025-10-25,Dettol Soap,53
+2025-10-26,Dettol Soap,57
+2025-10-27,Dettol Soap,41
+2025-10-28,Dettol Soap,47
+2025-10-29,Dettol Soap,47
+2025-10-30,Dettol Soap,56
+2025-10-31,Dettol Soap,56
+2025-11-01,Dettol Soap,57
+2025-11-02,Dettol Soap,58
+2025-11-03,Dettol Soap,45
+2025-11-04,Dettol Soap,43
+2025-11-05,Dettol Soap,54
+2025-11-06,Dettol Soap,43
+2025-11-07,Dettol Soap,50
+2025-11-08,Dettol Soap,61
+2025-11-09,Dettol Soap,63
+2025-11-10,Dettol Soap,45
+2025-11-11,Dettol Soap,45
+2025-11-12,Dettol Soap,49
+2025-11-13,Dettol Soap,44
+2025-11-14,Dettol Soap,54
+2025-11-15,Dettol Soap,62
+2025-11-16,Dettol Soap,61
+2025-11-17,Dettol Soap,54
+2025-11-18,Dettol Soap,42
+2025-11-19,Dettol Soap,45
+2025-11-20,Dettol Soap,49
+2025-11-21,Dettol Soap,53
+2025-11-22,Dettol Soap,61
+2025-11-23,Dettol Soap,64
+2025-11-24,Dettol Soap,45
+2025-11-25,Dettol Soap,48
+2025-11-26,Dettol Soap,56
+2025-11-27,Dettol Soap,57
+2025-11-28,Dettol Soap,62
+2025-11-29,Dettol Soap,61
+2025-11-30,Dettol Soap,54
+2025-12-01,Dettol Soap,50
+2025-12-02,Dettol Soap,51
+2025-12-03,Dettol Soap,48
+2025-12-04,Dettol Soap,46
+2025-12-05,Dettol Soap,52
+2025-12-06,Dettol Soap,50
+2025-12-07,Dettol Soap,49
+2025-12-08,Dettol Soap,52
+2025-12-09,Dettol Soap,50
+2025-12-10,Dettol Soap,47
+2025-12-11,Dettol Soap,47
+2025-12-12,Dettol Soap,60
+2025-12-13,Dettol Soap,58
+2025-12-14,Dettol Soap,52
+2025-12-15,Dettol Soap,54
+2025-12-16,Dettol Soap,51
+2025-12-17,Dettol Soap,51
+2025-12-18,Dettol Soap,54
+2025-12-19,Dettol Soap,55
+2025-12-20,Dettol Soap,65
+2025-12-21,Dettol Soap,59
+2025-12-22,Dettol Soap,54
+2025-12-23,Dettol Soap,53
+2025-12-24,Dettol Soap,44
+2025-12-25,Dettol Soap,52
+2025-12-26,Dettol Soap,61
+2025-12-27,Dettol Soap,60
+2025-12-28,Dettol Soap,59
+2025-12-29,Dettol Soap,49
+2025-12-30,Dettol Soap,54
+2025-12-31,Dettol Soap,53
+2025-07-01,Milo Refill,47
+2025-07-02,Milo Refill,45
+2025-07-03,Milo Refill,57
+2025-07-04,Milo Refill,57
+2025-07-05,Milo Refill,63
+2025-07-06,Milo Refill,67
+2025-07-07,Milo Refill,51
+2025-07-08,Milo Refill,46
+2025-07-09,Milo Refill,49
+2025-07-10,Milo Refill,55
+2025-07-11,Milo Refill,61
+2025-07-12,Milo Refill,54
+2025-07-13,Milo Refill,63
+2025-07-14,Milo Refill,54
+2025-07-15,Milo Refill,49
+2025-07-16,Milo Refill,53
+2025-07-17,Milo Refill,52
+2025-07-18,Milo Refill,60
+2025-07-19,Milo Refill,54
+2025-07-20,Milo Refill,66
+2025-07-21,Milo Refill,55
+2025-07-22,Milo Refill,54
+2025-07-23,Milo Refill,59
+2025-07-24,Milo Refill,56
+2025-07-25,Milo Refill,65
+2025-07-26,Milo Refill,50
+2025-07-27,Milo Refill,67
+2025-07-28,Milo Refill,52
+2025-07-29,Milo Refill,53
+2025-07-30,Milo Refill,53
+2025-07-31,Milo Refill,55
+2025-08-01,Milo Refill,67
+2025-08-02,Milo Refill,65
+2025-08-03,Milo Refill,64
+2025-08-04,Milo Refill,53
+2025-08-05,Milo Refill,35
+2025-08-06,Milo Refill,50
+2025-08-07,Milo Refill,47
+2025-08-08,Milo Refill,68
+2025-08-09,Milo Refill,65
+2025-08-10,Milo Refill,60
+2025-08-11,Milo Refill,50
+2025-08-12,Milo Refill,50
+2025-08-13,Milo Refill,50
+2025-08-14,Milo Refill,45
+2025-08-15,Milo Refill,55
+2025-08-16,Milo Refill,63
+2025-08-17,Milo Refill,68
+2025-08-18,Milo Refill,50
+2025-08-19,Milo Refill,54
+2025-08-20,Milo Refill,56
+2025-08-21,Milo Refill,48
+2025-08-22,Milo Refill,63
+2025-08-23,Milo Refill,60
+2025-08-24,Milo Refill,72
+2025-08-25,Milo Refill,61
+2025-08-26,Milo Refill,48
+2025-08-27,Milo Refill,55
+2025-08-28,Milo Refill,58
+2025-08-29,Milo Refill,68
+2025-08-30,Milo Refill,64
+2025-08-31,Milo Refill,71
+2025-09-01,Milo Refill,49
+2025-09-02,Milo Refill,52
+2025-09-03,Milo Refill,49
+2025-09-04,Milo Refill,57
+2025-09-05,Milo Refill,61
+2025-09-06,Milo Refill,64
+2025-09-07,Milo Refill,68
+2025-09-08,Milo Refill,57
+2025-09-09,Milo Refill,49
+2025-09-10,Milo Refill,59
+2025-09-11,Milo Refill,56
+2025-09-12,Milo Refill,59
+2025-09-13,Milo Refill,58
+2025-09-14,Milo Refill,65
+2025-09-15,Milo Refill,58
+2025-09-16,Milo Refill,59
+2025-09-17,Milo Refill,56
+2025-09-18,Milo Refill,55
+2025-09-19,Milo Refill,68
+2025-09-20,Milo Refill,61
+2025-09-21,Milo Refill,74
+2025-09-22,Milo Refill,63
+2025-09-23,Milo Refill,57
+2025-09-24,Milo Refill,56
+2025-09-25,Milo Refill,53
+2025-09-26,Milo Refill,69
+2025-09-27,Milo Refill,63
+2025-09-28,Milo Refill,55
+2025-09-29,Milo Refill,41
+2025-09-30,Milo Refill,51
+2025-10-01,Milo Refill,56
+2025-10-02,Milo Refill,57
+2025-10-03,Milo Refill,64
+2025-10-04,Milo Refill,67
+2025-10-05,Milo Refill,65
+2025-10-06,Milo Refill,50
+2025-10-07,Milo Refill,55
+2025-10-08,Milo Refill,60
+2025-10-09,Milo Refill,51
+2025-10-10,Milo Refill,62
+2025-10-11,Milo Refill,62
+2025-10-12,Milo Refill,57
+2025-10-13,Milo Refill,54
+2025-10-14,Milo Refill,60
+2025-10-15,Milo Refill,57
+2025-10-16,Milo Refill,55
+2025-10-17,Milo Refill,68
+2025-10-18,Milo Refill,65
+2025-10-19,Milo Refill,58
+2025-10-20,Milo Refill,60
+2025-10-21,Milo Refill,62
+2025-10-22,Milo Refill,53
+2025-10-23,Milo Refill,56
+2025-10-24,Milo Refill,67
+2025-10-25,Milo Refill,70
+2025-10-26,Milo Refill,77
+2025-10-27,Milo Refill,63
+2025-10-28,Milo Refill,55
+2025-10-29,Milo Refill,60
+2025-10-30,Milo Refill,63
+2025-10-31,Milo Refill,71
+2025-11-01,Milo Refill,69
+2025-11-02,Milo Refill,71
+2025-11-03,Milo Refill,54
+2025-11-04,Milo Refill,54
+2025-11-05,Milo Refill,52
+2025-11-06,Milo Refill,59
+2025-11-07,Milo Refill,68
+2025-11-08,Milo Refill,65
+2025-11-09,Milo Refill,68
+2025-11-10,Milo Refill,60
+2025-11-11,Milo Refill,67
+2025-11-12,Milo Refill,63
+2025-11-13,Milo Refill,46
+2025-11-14,Milo Refill,71
+2025-11-15,Milo Refill,77
+2025-11-16,Milo Refill,63
+2025-11-17,Milo Refill,61
+2025-11-18,Milo Refill,57
+2025-11-19,Milo Refill,64
+2025-11-20,Milo Refill,60
+2025-11-21,Milo Refill,66
+2025-11-22,Milo Refill,69
+2025-11-23,Milo Refill,70
+2025-11-24,Milo Refill,58
+2025-11-25,Milo Refill,64
+2025-11-26,Milo Refill,54
+2025-11-27,Milo Refill,64
+2025-11-28,Milo Refill,69
+2025-11-29,Milo Refill,72
+2025-11-30,Milo Refill,71
+2025-12-01,Milo Refill,59
+2025-12-02,Milo Refill,59
+2025-12-03,Milo Refill,66
+2025-12-04,Milo Refill,63
+2025-12-05,Milo Refill,69
+2025-12-06,Milo Refill,79
+2025-12-07,Milo Refill,73
+2025-12-08,Milo Refill,61
+2025-12-09,Milo Refill,55
+2025-12-10,Milo Refill,57
+2025-12-11,Milo Refill,56
+2025-12-12,Milo Refill,72
+2025-12-13,Milo Refill,75
+2025-12-14,Milo Refill,74
+2025-12-15,Milo Refill,68
+2025-12-16,Milo Refill,55
+2025-12-17,Milo Refill,60
+2025-12-18,Milo Refill,54
+2025-12-19,Milo Refill,68
+2025-12-20,Milo Refill,79
+2025-12-21,Milo Refill,70
+2025-12-22,Milo Refill,56
+2025-12-23,Milo Refill,50
+2025-12-24,Milo Refill,56
+2025-12-25,Milo Refill,59
+2025-12-26,Milo Refill,66
+2025-12-27,Milo Refill,71
+2025-12-28,Milo Refill,79
+2025-12-29,Milo Refill,57
+2025-12-30,Milo Refill,56
+2025-12-31,Milo Refill,55
+2025-07-01,Bread Loaf,28
+2025-07-02,Bread Loaf,32
+2025-07-03,Bread Loaf,30
+2025-07-04,Bread Loaf,29
+2025-07-05,Bread Loaf,30
+2025-07-06,Bread Loaf,38
+2025-07-07,Bread Loaf,26
+2025-07-08,Bread Loaf,26
+2025-07-09,Bread Loaf,23
+2025-07-10,Bread Loaf,30
+2025-07-11,Bread Loaf,44
+2025-07-12,Bread Loaf,28
+2025-07-13,Bread Loaf,34
+2025-07-14,Bread Loaf,35
+2025-07-15,Bread Loaf,28
+2025-07-16,Bread Loaf,30
+2025-07-17,Bread Loaf,23
+2025-07-18,Bread Loaf,36
+2025-07-19,Bread Loaf,33
+2025-07-20,Bread Loaf,39
+2025-07-21,Bread Loaf,34
+2025-07-22,Bread Loaf,41
+2025-07-23,Bread Loaf,31
+2025-07-24,Bread Loaf,30
+2025-07-25,Bread Loaf,35
+2025-07-26,Bread Loaf,32
+2025-07-27,Bread Loaf,36
+2025-07-28,Bread Loaf,27
+2025-07-29,Bread Loaf,29
+2025-07-30,Bread Loaf,35
+2025-07-31,Bread Loaf,23
+2025-08-01,Bread Loaf,40
+2025-08-02,Bread Loaf,41
+2025-08-03,Bread Loaf,34
+2025-08-04,Bread Loaf,18
+2025-08-05,Bread Loaf,26
+2025-08-06,Bread Loaf,35
+2025-08-07,Bread Loaf,29
+2025-08-08,Bread Loaf,30
+2025-08-09,Bread Loaf,32
+2025-08-10,Bread Loaf,39
+2025-08-11,Bread Loaf,31
+2025-08-12,Bread Loaf,28
+2025-08-13,Bread Loaf,27
+2025-08-14,Bread Loaf,27
+2025-08-15,Bread Loaf,30
+2025-08-16,Bread Loaf,43
+2025-08-17,Bread Loaf,33
+2025-08-18,Bread Loaf,35
+2025-08-19,Bread Loaf,37
+2025-08-20,Bread Loaf,34
+2025-08-21,Bread Loaf,27
+2025-08-22,Bread Loaf,37
+2025-08-23,Bread Loaf,35
+2025-08-24,Bread Loaf,31
+2025-08-25,Bread Loaf,31
+2025-08-26,Bread Loaf,23
+2025-08-27,Bread Loaf,35
+2025-08-28,Bread Loaf,27
+2025-08-29,Bread Loaf,36
+2025-08-30,Bread Loaf,37
+2025-08-31,Bread Loaf,34
+2025-09-01,Bread Loaf,32
+2025-09-02,Bread Loaf,27
+2025-09-03,Bread Loaf,34
+2025-09-04,Bread Loaf,23
+2025-09-05,Bread Loaf,36
+2025-09-06,Bread Loaf,45
+2025-09-07,Bread Loaf,31
+2025-09-08,Bread Loaf,26
+2025-09-09,Bread Loaf,32
+2025-09-10,Bread Loaf,31
+2025-09-11,Bread Loaf,31
+2025-09-12,Bread Loaf,38
+2025-09-13,Bread Loaf,39
+2025-09-14,Bread Loaf,41
+2025-09-15,Bread Loaf,32
+2025-09-16,Bread Loaf,29
+2025-09-17,Bread Loaf,33
+2025-09-18,Bread Loaf,39
+2025-09-19,Bread Loaf,35
+2025-09-20,Bread Loaf,31
+2025-09-21,Bread Loaf,42
+2025-09-22,Bread Loaf,29
+2025-09-23,Bread Loaf,19
+2025-09-24,Bread Loaf,34
+2025-09-25,Bread Loaf,27
+2025-09-26,Bread Loaf,36
+2025-09-27,Bread Loaf,38
+2025-09-28,Bread Loaf,37
+2025-09-29,Bread Loaf,34
+2025-09-30,Bread Loaf,28
+2025-10-01,Bread Loaf,33
+2025-10-02,Bread Loaf,29
+2025-10-03,Bread Loaf,40
+2025-10-04,Bread Loaf,40
+2025-10-05,Bread Loaf,32
+2025-10-06,Bread Loaf,36
+2025-10-07,Bread Loaf,28
+2025-10-08,Bread Loaf,35
+2025-10-09,Bread Loaf,32
+2025-10-10,Bread Loaf,46
+2025-10-11,Bread Loaf,36
+2025-10-12,Bread Loaf,35
+2025-10-13,Bread Loaf,31
+2025-10-14,Bread Loaf,29
+2025-10-15,Bread Loaf,35
+2025-10-16,Bread Loaf,23
+2025-10-17,Bread Loaf,32
+2025-10-18,Bread Loaf,32
+2025-10-19,Bread Loaf,42
+2025-10-20,Bread Loaf,39
+2025-10-21,Bread Loaf,30
+2025-10-22,Bread Loaf,30
+2025-10-23,Bread Loaf,31
+2025-10-24,Bread Loaf,43
+2025-10-25,Bread Loaf,33
+2025-10-26,Bread Loaf,39
+2025-10-27,Bread Loaf,36
+2025-10-28,Bread Loaf,34
+2025-10-29,Bread Loaf,32
+2025-10-30,Bread Loaf,36
+2025-10-31,Bread Loaf,24
+2025-11-01,Bread Loaf,41
+2025-11-02,Bread Loaf,34
+2025-11-03,Bread Loaf,22
+2025-11-04,Bread Loaf,34
+2025-11-05,Bread Loaf,38
+2025-11-06,Bread Loaf,31
+2025-11-07,Bread Loaf,43
+2025-11-08,Bread Loaf,46
+2025-11-09,Bread Loaf,44
+2025-11-10,Bread Loaf,40
+2025-11-11,Bread Loaf,35
+2025-11-12,Bread Loaf,32
+2025-11-13,Bread Loaf,24
+2025-11-14,Bread Loaf,37
+2025-11-15,Bread Loaf,34
+2025-11-16,Bread Loaf,49
+2025-11-17,Bread Loaf,31
+2025-11-18,Bread Loaf,32
+2025-11-19,Bread Loaf,35
+2025-11-20,Bread Loaf,32
+2025-11-21,Bread Loaf,47
+2025-11-22,Bread Loaf,35
+2025-11-23,Bread Loaf,39
+2025-11-24,Bread Loaf,28
+2025-11-25,Bread Loaf,25
+2025-11-26,Bread Loaf,29
+2025-11-27,Bread Loaf,32
+2025-11-28,Bread Loaf,36
+2025-11-29,Bread Loaf,35
+2025-11-30,Bread Loaf,32
+2025-12-01,Bread Loaf,32
+2025-12-02,Bread Loaf,25
+2025-12-03,Bread Loaf,36
+2025-12-04,Bread Loaf,33
+2025-12-05,Bread Loaf,32
+2025-12-06,Bread Loaf,37
+2025-12-07,Bread Loaf,35
+2025-12-08,Bread Loaf,34
+2025-12-09,Bread Loaf,39
+2025-12-10,Bread Loaf,23
+2025-12-11,Bread Loaf,33
+2025-12-12,Bread Loaf,38
+2025-12-13,Bread Loaf,43
+2025-12-14,Bread Loaf,40
+2025-12-15,Bread Loaf,29
+2025-12-16,Bread Loaf,31
+2025-12-17,Bread Loaf,29
+2025-12-18,Bread Loaf,38
+2025-12-19,Bread Loaf,39
+2025-12-20,Bread Loaf,49
+2025-12-21,Bread Loaf,39
+2025-12-22,Bread Loaf,29
+2025-12-23,Bread Loaf,25
+2025-12-24,Bread Loaf,24
+2025-12-25,Bread Loaf,25
+2025-12-26,Bread Loaf,41
+2025-12-27,Bread Loaf,42
+2025-12-28,Bread Loaf,32
+2025-12-29,Bread Loaf,38
+2025-12-30,Bread Loaf,31
+2025-12-31,Bread Loaf,34
