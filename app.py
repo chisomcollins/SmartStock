@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
 
 st.set_page_config(page_title="SmartStock Lite", layout="wide")
 
@@ -9,8 +8,12 @@ st.markdown("### AI Inventory Intelligence for Growing Retailers")
 st.markdown("---")
 
 # Upload option
-uploaded_file = st.file_uploader("Upload Sales CSV (date, product, sales)", type=["csv"])
+uploaded_file = st.file_uploader(
+    "Upload Sales CSV (must contain: date, product, sales)", 
+    type=["csv"]
+)
 
+# Load dataset
 if uploaded_file is not None:
     df = pd.read_csv(uploaded_file)
     st.success("Custom dataset loaded successfully")
@@ -18,7 +21,7 @@ else:
     try:
         df = pd.read_csv("data/retail_sales_data.csv")
         st.info("Using demo dataset")
-    except Exception as e:
+    except:
         st.error("Demo dataset not found. Please upload a CSV file.")
         st.stop()
 
@@ -30,10 +33,22 @@ if not required_columns.issubset(df.columns):
     st.write("Current columns found:", df.columns.tolist())
     st.stop()
 
-df['date'] = pd.to_datetime(df['date'])
+# Convert date column
+df["date"] = pd.to_datetime(df["date"])
+
+# Product selection
+product_list = df["product"].unique()
+selected_product = st.selectbox("Select Product", product_list)
+
+# Filter product data
+product_df = df[df["product"] == selected_product].sort_values("date")
+
+if product_df.empty:
+    st.warning("No data available for selected product.")
+    st.stop()
 
 # Forecast logic
-last_30_days_avg = product_df.tail(30)['sales'].mean()
+last_30_days_avg = product_df.tail(30)["sales"].mean()
 predicted_30_days = int(last_30_days_avg * 30)
 
 current_stock = st.number_input("Current Stock Level", min_value=0, value=500)
@@ -41,7 +56,7 @@ current_stock = st.number_input("Current Stock Level", min_value=0, value=500)
 reorder_quantity = max(0, predicted_30_days - current_stock)
 stockout_ratio = predicted_30_days / (current_stock + 1)
 
-# KPI SECTION
+# KPI Section
 kpi1, kpi2, kpi3 = st.columns(3)
 
 kpi1.metric("30-Day Demand Forecast", f"{predicted_30_days} units")
@@ -71,5 +86,3 @@ with col2:
 
 st.markdown("---")
 st.caption("SmartStock Lite • Built for SME inventory optimization")
-
-
