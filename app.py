@@ -16,6 +16,7 @@ with st.expander("How to use SmartStock"):
     4. Review demand forecast and reorder suggestion.
     """)
 st.markdown("---")
+  
 # Downloadable sample
 st.markdown("### 📥 Need a template?")
 sample_data = pd.DataFrame({
@@ -77,6 +78,22 @@ selected_product = st.selectbox("Select Product", product_list)
 # Filter product data
 product_df = df[df["product"] == selected_product].sort_values("date")
 
+# Demand volatility (standard deviation of last 30 days)
+volatility = product_df.tail(30)["sales"].std()
+
+# Normalize volatility (avoid division by zero)
+volatility_factor = volatility / (product_df["sales"].mean() + 1)
+
+# Basic stock pressure ratio
+pressure_ratio = predicted_30_days / (current_stock + 1)
+
+# Risk score formula (scaled 0–100)
+risk_score = min(100, int((pressure_ratio * 60) + (volatility_factor * 40)))
+
+st.markdown("### 📉 Stockout Risk Score")
+st.progress(risk_score / 100)
+st.write(f"Risk Score: **{risk_score}/100**")
+
 if product_df.empty:
     st.warning("No data available for selected product.")
     st.stop()
@@ -87,6 +104,13 @@ predicted_30_days = int(last_30_days_avg * 30)
 
 current_stock = st.number_input("Current Stock Level", min_value=0, value=500)
 
+if volatility_factor > 0.5:
+    st.warning("⚠️ High demand volatility detected.")
+elif volatility_factor > 0.2:
+    st.info("Moderate demand variability.")
+else:
+    st.success("Stable demand pattern.")
+
 reorder_quantity = max(0, predicted_30_days - current_stock)
 stockout_ratio = predicted_30_days / (current_stock + 1)
 
@@ -96,6 +120,33 @@ kpi1, kpi2, kpi3 = st.columns(3)
 kpi1.metric("30-Day Demand Forecast", f"{predicted_30_days} units")
 kpi2.metric("Current Stock", f"{current_stock} units")
 kpi3.metric("Suggested Reorder", f"{reorder_quantity} units")
+
+st.markdown("### 📉 Stockout Risk Score")
+st.progress(risk_score / 100)
+st.write(f"Risk Score: **{risk_score}/100**")
+
+supplier_lead_time = st.number_input(
+    "Supplier Lead Time (days)", 
+    min_value=0, 
+    value=7
+)
+
+# Days until projected stockout
+daily_avg_sales = product_df["sales"].mean()
+days_until_stockout = current_stock / (daily_avg_sales + 1)
+
+st.markdown("### 🚚 Reorder Timing Intelligence")
+
+if days_until_stockout <= supplier_lead_time:
+    st.error(
+        f"You may stock out in approximately {int(days_until_stockout)} days. "
+        f"Reorder immediately to avoid disruption."
+    )
+else:
+    safe_window = int(days_until_stockout - supplier_lead_time)
+    st.success(
+        f"You have approximately {safe_window} days before reorder becomes urgent."
+    )
 
 st.markdown("---")
 
