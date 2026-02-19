@@ -11,19 +11,26 @@ st.markdown("---")
 # Upload option
 uploaded_file = st.file_uploader("Upload Sales CSV (date, product, sales)", type=["csv"])
 
-if uploaded_file:
+if uploaded_file is not None:
     df = pd.read_csv(uploaded_file)
     st.success("Custom dataset loaded successfully")
 else:
-    df = pd.read_csv("data/retail_sales_data.csv")
-    st.info("Using demo dataset")
+    try:
+        df = pd.read_csv("data/retail_sales_data.csv")
+        st.info("Using demo dataset")
+    except Exception as e:
+        st.error("Demo dataset not found. Please upload a CSV file.")
+        st.stop()
+
+# Validate required columns
+required_columns = {"date", "product", "sales"}
+
+if not required_columns.issubset(df.columns):
+    st.error("CSV must contain columns: date, product, sales")
+    st.write("Current columns found:", df.columns.tolist())
+    st.stop()
 
 df['date'] = pd.to_datetime(df['date'])
-
-product_list = df['product'].unique()
-selected_product = st.selectbox("Select Product", product_list)
-
-product_df = df[df['product'] == selected_product].sort_values("date")
 
 # Forecast logic
 last_30_days_avg = product_df.tail(30)['sales'].mean()
