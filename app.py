@@ -104,6 +104,9 @@ predicted_30_days = int(last_30_days_avg * 30)
 
 current_stock = st.number_input("Current Stock Level", min_value=0, value=500)
 
+reorder_quantity = max(0, predicted_30_days - current_stock)
+stockout_ratio = predicted_30_days / (current_stock + 1)
+
 if volatility_factor > 0.5:
     st.warning("⚠️ High demand volatility detected.")
 elif volatility_factor > 0.2:
@@ -111,8 +114,7 @@ elif volatility_factor > 0.2:
 else:
     st.success("Stable demand pattern.")
 
-reorder_quantity = max(0, predicted_30_days - current_stock)
-stockout_ratio = predicted_30_days / (current_stock + 1)
+
 
 # KPI Section
 kpi1, kpi2, kpi3 = st.columns(3)
