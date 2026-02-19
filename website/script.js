@@ -2,21 +2,26 @@
 document.getElementById("year").textContent = new Date().getFullYear();
 
 
-// Smooth Scroll for CTA buttons
+// Smooth Scroll (safe version)
 document.querySelectorAll("a[href^='#']").forEach(anchor => {
     anchor.addEventListener("click", function (e) {
-        e.preventDefault();
-        const target = document.querySelector(this.getAttribute("href"));
-        if (target) {
-            target.scrollIntoView({
-                behavior: "smooth"
-            });
+        const href = this.getAttribute("href");
+
+        // Only run if it's not just "#"
+        if (href.length > 1) {
+            e.preventDefault();
+            const target = document.querySelector(href);
+            if (target) {
+                target.scrollIntoView({
+                    behavior: "smooth"
+                });
+            }
         }
     });
 });
 
 
-// Simple scroll reveal animation
+// Scroll reveal animation
 const revealElements = document.querySelectorAll(".card");
 
 window.addEventListener("scroll", () => {
@@ -32,10 +37,10 @@ window.addEventListener("scroll", () => {
     });
 });
 
-
 // Initial animation state
 revealElements.forEach(el => {
     el.style.opacity = 0;
     el.style.transform = "translateY(40px)";
     el.style.transition = "all 0.6s ease";
 });
+
