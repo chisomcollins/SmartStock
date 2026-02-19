@@ -7,6 +7,40 @@ st.title("📦 SmartStock Lite")
 st.markdown("### AI Inventory Intelligence for Growing Retailers")
 st.markdown("---")
 
+#Onboarding
+with st.expander("How to use SmartStock"):
+    st.write("""
+    1. Upload your sales CSV file.
+    2. Select a product.
+    3. Enter current stock level.
+    4. Review demand forecast and reorder suggestion.
+    """)
+st.markdown("---")
+# Downloadable sample
+st.markdown("### 📥 Need a template?")
+sample_data = pd.DataFrame({
+    "date": ["2025-01-01", "2025-01-02"],
+    "product": ["Rice 50kg", "Rice 50kg"],
+    "sales": [45, 38]
+})
+
+csv_sample = sample_data.to_csv(index=False)
+
+st.download_button(
+    label="Download Sample CSV Template",
+    data=csv_sample,
+    file_name="smartstock_sample_template.csv",
+    mime="text/csv"
+)
+
+st.markdown("---")
+
+#Clear Data Format Instruction
+st.info(
+    "Your CSV must contain exactly these columns: "
+    "`date`, `product`, `sales`. "
+    "Date format should be YYYY-MM-DD."
+)
 # Upload option
 uploaded_file = st.file_uploader(
     "Upload Sales CSV (must contain: date, product, sales)", 
@@ -83,6 +117,20 @@ with col2:
     else:
         st.success("🟢 Low Stockout Risk")
         st.write("Stock level healthy.")
+
+# Summary part
+st.markdown("### 📊 Business Summary")
+
+if reorder_quantity > 0:
+    st.write(
+        f"If sales continue at current pace, you may need to reorder "
+        f"approximately **{reorder_quantity} units** within the next 30 days."
+    )
+else:
+    st.write(
+        "Your current inventory level appears sufficient for projected demand."
+    )
+
 
 st.markdown("---")
 st.caption("SmartStock Lite • Built for SME inventory optimization")
