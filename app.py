@@ -78,43 +78,26 @@ selected_product = st.selectbox("Select Product", product_list)
 # Filter product data
 product_df = df[df["product"] == selected_product].sort_values("date")
 
-# Demand volatility (standard deviation of last 30 days)
-volatility = product_df.tail(30)["sales"].std()
-
-# Normalize volatility (avoid division by zero)
-volatility_factor = volatility / (product_df["sales"].mean() + 1)
-
-# Basic stock pressure ratio
-pressure_ratio = predicted_30_days / (current_stock + 1)
-
-# Risk score formula (scaled 0–100)
-risk_score = min(100, int((pressure_ratio * 60) + (volatility_factor * 40)))
-
-st.markdown("### 📉 Stockout Risk Score")
-st.progress(risk_score / 100)
-st.write(f"Risk Score: **{risk_score}/100**")
-
 if product_df.empty:
     st.warning("No data available for selected product.")
     st.stop()
 
 # Forecast logic
+# Forecast
 last_30_days_avg = product_df.tail(30)["sales"].mean()
 predicted_30_days = int(last_30_days_avg * 30)
 
+# Stock Input
 current_stock = st.number_input("Current Stock Level", min_value=0, value=500)
 
+# Reorder logic
 reorder_quantity = max(0, predicted_30_days - current_stock)
-stockout_ratio = predicted_30_days / (current_stock + 1)
 
-if volatility_factor > 0.5:
-    st.warning("⚠️ High demand volatility detected.")
-elif volatility_factor > 0.2:
-    st.info("Moderate demand variability.")
-else:
-    st.success("Stable demand pattern.")
-
-
+# Volatility + Risk
+volatility = product_df.tail(30)["sales"].std() or 0
+volatility_factor = volatility / (product_df["sales"].mean() + 1)
+pressure_ratio = predicted_30_days / (current_stock + 1)
+risk_score = min(100, int((pressure_ratio * 60) + (volatility_factor * 40)))
 
 # KPI Section
 kpi1, kpi2, kpi3 = st.columns(3)
@@ -123,10 +106,19 @@ kpi1.metric("30-Day Demand Forecast", f"{predicted_30_days} units")
 kpi2.metric("Current Stock", f"{current_stock} units")
 kpi3.metric("Suggested Reorder", f"{reorder_quantity} units")
 
+# Risk Score display
 st.markdown("### 📉 Stockout Risk Score")
 st.progress(risk_score / 100)
 st.write(f"Risk Score: **{risk_score}/100**")
 
+if volatility_factor > 0.5:
+    st.warning("⚠️ High demand volatility detected.")
+elif volatility_factor > 0.2:
+    st.info("Moderate demand variability.")
+else:
+    st.success("Stable demand pattern.")
+
+# Lead-time logic
 supplier_lead_time = st.number_input(
     "Supplier Lead Time (days)", 
     min_value=0, 
@@ -152,6 +144,7 @@ else:
 
 st.markdown("---")
 
+
 col1, col2 = st.columns([2,1])
 
 with col1:
@@ -161,15 +154,16 @@ with col1:
 with col2:
     st.subheader("📦 Risk Assessment")
 
-    if stockout_ratio > 1:
+    if risk_score > 70:
         st.error("🔴 High Stockout Risk")
         st.write("Immediate reorder recommended.")
-    elif stockout_ratio > 0.8:
+    elif risk_score > 40:
         st.warning("🟡 Moderate Stockout Risk")
         st.write("Monitor closely and consider reorder.")
     else:
         st.success("🟢 Low Stockout Risk")
         st.write("Stock level healthy.")
+        
 
 # Summary part
 st.markdown("### 📊 Business Summary")
