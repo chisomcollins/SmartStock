@@ -5,6 +5,9 @@ st.set_page_config(page_title="SmartStock Lite", layout="wide")
 
 st.title("📦 SmartStock Lite")
 st.markdown("### AI Inventory Intelligence for Growing Retailers")
+st.markdown(
+    "Designed for small and medium retailers seeking better inventory decisions under cash constraints."
+)
 st.markdown("---")
 
 #Onboarding
@@ -92,6 +95,38 @@ current_stock = st.number_input("Current Stock Level", min_value=0, value=500)
 
 # Reorder logic
 reorder_quantity = max(0, predicted_30_days - current_stock)
+st.markdown("### 💰 Capital-Constrained Reorder Optimization")
+
+unit_cost = st.number_input(
+    "Unit Cost (₦ per product)", 
+    min_value=0.0, 
+    value=1000.0,
+    step=100.0
+)
+
+available_capital = st.number_input(
+    "Available Capital for Reordering (₦)", 
+    min_value=0.0, 
+    value=500000.0,
+    step=10000.0
+)
+
+# Maximum units affordable
+max_affordable_units = int(available_capital // unit_cost) if unit_cost > 0 else 0
+
+# Final optimized reorder suggestion
+optimized_reorder = min(reorder_quantity, max_affordable_units)
+
+st.write(f"Maximum affordable units: **{max_affordable_units} units**")
+
+if optimized_reorder < reorder_quantity:
+    st.warning(
+        f"⚠ Capital constraint detected. "
+        f"You can only afford to reorder **{optimized_reorder} units** "
+        f"instead of the recommended {reorder_quantity} units."
+    )
+else:
+    st.success("You have sufficient capital to cover the recommended reorder.")
 
 
 # --- Normalized Structured Risk Framework ---
@@ -186,20 +221,23 @@ with col2:
 st.markdown("### 📊 Business Summary")
 
 if reorder_quantity > 0:
-    st.write(
-        f"If sales continue at current pace, you may need to reorder "
-        f"approximately **{reorder_quantity} units** within the next 30 days."
-    )
+    if optimized_reorder < reorder_quantity:
+        st.write(
+            f"Demand indicates a reorder of **{reorder_quantity} units**, "
+            f"but capital constraints limit you to **{optimized_reorder} units**. "
+            "Consider phased purchasing or increasing working capital."
+        )
+    else:
+        st.write(
+            f"Projected demand suggests reordering **{reorder_quantity} units** "
+            "within the next 30 days."
+        )
 else:
-    st.write(
-        "Your current inventory level appears sufficient for projected demand."
-    )
+    st.write("Current inventory appears sufficient for projected demand.")
 
 
 
-st.markdown("---")
-st.markdown("## 🧪 Internal Risk Model Simulator")
-
+# Tester
 with st.expander("Open Risk Simulator (Testing Only)"):
 
     sim_forecast = st.number_input("Simulated 30-Day Demand", min_value=0, value=500)
@@ -234,5 +272,6 @@ with st.expander("Open Risk Simulator (Testing Only)"):
     st.write("Lead Time Score:", round(lead_time_score, 2))
 
 st.markdown("---")
+st.caption("Note: This tool provides decision support estimates. Always validate against operational context.")
 st.caption("SmartStock Lite • Built for SME inventory optimization")
 
