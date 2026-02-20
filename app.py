@@ -93,11 +93,39 @@ current_stock = st.number_input("Current Stock Level", min_value=0, value=500)
 # Reorder logic
 reorder_quantity = max(0, predicted_30_days - current_stock)
 
-# Volatility + Risk
+
+# --- Normalized Structured Risk Framework ---
+
+# Demand Pressure
+raw_pressure = predicted_30_days / (current_stock + 1)
+pressure_score = min(1, raw_pressure / 2)
+
+# Volatility
 volatility = product_df.tail(30)["sales"].std() or 0
-volatility_factor = volatility / (product_df["sales"].mean() + 1)
-pressure_ratio = predicted_30_days / (current_stock + 1)
-risk_score = min(100, int((pressure_ratio * 60) + (volatility_factor * 40)))
+mean_sales = product_df["sales"].mean()
+raw_volatility = volatility / (mean_sales + 1)
+volatility_score = min(1, raw_volatility)
+
+# Lead Time Exposure
+daily_avg_sales = mean_sales
+days_until_stockout = current_stock / (daily_avg_sales + 1)
+
+supplier_lead_time = st.number_input(
+    "Supplier Lead Time (days)", 
+    min_value=0, 
+    value=7
+)
+
+raw_lead_exposure = supplier_lead_time / (days_until_stockout + 1)
+lead_time_score = min(1, raw_lead_exposure)
+
+# Weighted Risk Score
+risk_score = int(
+    (pressure_score * 50) +
+    (volatility_score * 30) +
+    (lead_time_score * 20)
+)
+
 
 # KPI Section
 kpi1, kpi2, kpi3 = st.columns(3)
@@ -111,26 +139,7 @@ st.markdown("### 📉 Stockout Risk Score")
 st.progress(risk_score / 100)
 st.write(f"Risk Score: **{risk_score}/100**")
 
-if volatility_factor > 0.5:
-    st.warning("⚠️ High demand volatility detected.")
-elif volatility_factor > 0.2:
-    st.info("Moderate demand variability.")
-else:
-    st.success("Stable demand pattern.")
-
-# Lead-time logic
-supplier_lead_time = st.number_input(
-    "Supplier Lead Time (days)", 
-    min_value=0, 
-    value=7
-)
-
-# Days until projected stockout
-daily_avg_sales = product_df["sales"].mean()
-days_until_stockout = current_stock / (daily_avg_sales + 1)
-
 st.markdown("### 🚚 Reorder Timing Intelligence")
-
 if days_until_stockout <= supplier_lead_time:
     st.error(
         f"You may stock out in approximately {int(days_until_stockout)} days. "
@@ -141,6 +150,14 @@ else:
     st.success(
         f"You have approximately {safe_window} days before reorder becomes urgent."
     )
+
+
+if volatility_factor > 0.5:
+    st.warning("⚠️ High demand volatility detected.")
+elif volatility_factor > 0.2:
+    st.info("Moderate demand variability.")
+else:
+    st.success("Stable demand pattern.")
 
 st.markdown("---")
 
@@ -154,16 +171,16 @@ with col1:
 with col2:
     st.subheader("📦 Risk Assessment")
 
-    if risk_score > 70:
+    if risk_score >= 66:
         st.error("🔴 High Stockout Risk")
-        st.write("Immediate reorder recommended.")
-    elif risk_score > 40:
+        st.write("Strong likelihood of stockout without intervention.")
+    elif risk_score >= 36:
         st.warning("🟡 Moderate Stockout Risk")
-        st.write("Monitor closely and consider reorder.")
+        st.write("Monitor demand closely and prepare reorder plan.")
     else:
         st.success("🟢 Low Stockout Risk")
-        st.write("Stock level healthy.")
-        
+        st.write("Inventory position is currently stable.")
+         
 
 # Summary part
 st.markdown("### 📊 Business Summary")
