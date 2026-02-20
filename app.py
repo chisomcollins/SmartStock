@@ -196,5 +196,43 @@ else:
     )
 
 
+
+st.markdown("---")
+st.markdown("## 🧪 Internal Risk Model Simulator")
+
+with st.expander("Open Risk Simulator (Testing Only)"):
+
+    sim_forecast = st.number_input("Simulated 30-Day Demand", min_value=0, value=500)
+    sim_stock = st.number_input("Simulated Current Stock", min_value=0, value=500)
+    sim_volatility = st.number_input("Simulated Volatility (0–1)", min_value=0.0, max_value=2.0, value=0.3, step=0.05)
+    sim_lead_time = st.number_input("Simulated Supplier Lead Time", min_value=0, value=7)
+
+    # --- Normalized Scoring ---
+    raw_pressure = sim_forecast / (sim_stock + 1)
+    pressure_score = min(1, raw_pressure / 2)
+
+    volatility_score = min(1, sim_volatility)
+
+    sim_daily_avg = sim_forecast / 30 if sim_forecast > 0 else 0
+    sim_days_until_stockout = sim_stock / (sim_daily_avg + 1)
+
+    raw_lead_exposure = sim_lead_time / (sim_days_until_stockout + 1)
+    lead_time_score = min(1, raw_lead_exposure)
+
+    sim_risk_score = int(
+        (pressure_score * 50) +
+        (volatility_score * 30) +
+        (lead_time_score * 20)
+    )
+
+    st.markdown("### Simulated Risk Score")
+    st.progress(sim_risk_score / 100)
+    st.write(f"Risk Score: **{sim_risk_score}/100**")
+
+    st.write("Pressure Score:", round(pressure_score, 2))
+    st.write("Volatility Score:", round(volatility_score, 2))
+    st.write("Lead Time Score:", round(lead_time_score, 2))
+
 st.markdown("---")
 st.caption("SmartStock Lite • Built for SME inventory optimization")
+
