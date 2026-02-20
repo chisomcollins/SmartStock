@@ -152,9 +152,9 @@ else:
     )
 
 
-if volatility_factor > 0.5:
+if volatility_score > 0.6:
     st.warning("⚠️ High demand volatility detected.")
-elif volatility_factor > 0.2:
+elif volatility_score > 0.3:
     st.info("Moderate demand variability.")
 else:
     st.success("Stable demand pattern.")
